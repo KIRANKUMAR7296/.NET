@@ -3,7 +3,7 @@
 ### State Management
 - `Maintain` and `Store` the Information of any User till the end of the `User Session`.
 
-<table align=center>
+<table>
   <tr><th colspan=2>State Management</th></tr>
   <tr><th>Server Side</th><th>Client Side</th></tr>
   <tr>
