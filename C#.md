@@ -29,10 +29,19 @@ Boxing | Unboxing
 :--- | :---
 Converting a Value Type (Char, Int) to Reference Type (Object) | Converting Reference Type into Value Type 
 Store in `Heap` | Store in `Stack`
-e.g. int num = 7;     // num = Value Type Variable  | e.g. int num = 7;        
-object obj = num;    // Boxing : obj = Object Reference Type | object obj = num;  // Boxing
-| int i = (int)obj;  // Unboxing
 
+- e.g. Boxing 
+```c#
+int num = 7;       // num = Value Type Variable        
+object obj = num;  // Boxing
+
+- e.g. Unboxing
+
+```c#
+int num = 7;  
+object obj = num;  // Boxing
+int i = (int)obj;  // Unboxing
+```
    
 
 4. ADO.NET (ActiveX )
