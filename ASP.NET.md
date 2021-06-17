@@ -19,8 +19,8 @@
         <li>Cookies ( Stores User Information )</li>
         <li>Viewstate ( Stores any type of Data used for Sending and Receiving Information. )</li>
         <li>Controlstate</li>
-        <li>Query String ( Store the value in URL, Visible to all Users. )</li>
-        <li>Hidden Field ( Store value to Client Side )</li>
+        <li>Query String ( Stores the value in URL, Visible to all Users. )</li>
+        <li>Hidden Field ( Stores value that are not displayed on Browser )</li>
       </ul>
     </td>    
   </tr>
