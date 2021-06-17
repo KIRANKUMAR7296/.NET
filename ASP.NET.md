@@ -16,11 +16,11 @@
     </td>    
     <td>
       <ul>
-        <li>Cookies ( Store user information )</li>
-        <li>Viewstate ( Stores any type of Data )</li>
+        <li>Cookies ( Stores User Information )</li>
+        <li>Viewstate ( Stores Any type of Data )</li>
         <li>Controlstate</li>
-        <li>Query String ( Store the value in URL )</li>
-        <li>Hidden Field ( Store value to client side )</li>
+        <li>Query String ( Store the Value in URL )</li>
+        <li>Hidden Field ( Store Value to Client Side )</li>
       </ul>
     </td>    
   </tr>
