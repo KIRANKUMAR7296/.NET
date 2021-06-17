@@ -7,7 +7,7 @@
     <th align=left><a href= "#obj">3. Object</a></th>
     <th align=left><a href= "#abs">4. Abstraction</a></th>
     <th align=left><a href= "#enc">5. Encapsulation</a></th>
-    <th align=left><a href= "#poly"6. Polymorphism</a></th>
+    <th align=left><a href= "#poly">6. Polymorphism</a></th>
     <th align=left><a href= "#inh">7. Inheritance</a></th>
   </tr>
 </table>
