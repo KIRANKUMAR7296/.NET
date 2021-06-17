@@ -5,9 +5,7 @@
       <th align=left><a href='#con'>Constructor</a></th>
       <th align=left><a href='#gc'>Garbage Collector</a></th>
       <th align=left><a href='#box'>Boxing and Unboxing</a></th>
-      <th align=left><a href='#type'>Data Type</a></th>      
-      <th align=left><a href='#cluster'>Clustered Index</a></th>
-      <th align=left><a href='#noncluster'>Non Clustered Index</a></th>
+      <th align=left><a href='#type'>Data Type</a></th>         
    </tr>
 </table>
 
@@ -52,18 +50,6 @@ Type | Data Type
 `Value` | `short`, `int`, `char`, `float`, `double` 
 `Reference` | `String`, `Class`, `Object` and `Interface`
 `Pointer` | `Pointers`
-
-<h3 name='cluster'>9. Clustered Index</h3>
-
-- Defines the `Order` in which Data is Physically stored in a Table.
-- When we Create a Table with ID as `PRIMARY KEY`, this Automatically creates Clustered Index.
-
-<h3 name='noncluster'>10. Non Clustered Index</h3>
-
-- Doesn't `Sort` the Physical Data inside the Table.
-- Non Clustered Index is stored at different place then the Table Data.
-- e.g. Textbook content | Index is located on first page but the actual content is all at different pages.
-- Index contains column value and Address of the Record.
 
 ### 3. Difference between Public, Static and Void 
 
