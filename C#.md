@@ -1,23 +1,32 @@
 # C#
 
+<table>
+   <tr>
+      <th align=left href='#con'>Constructor</th>
+      <th align=left href='#con'></th>
+      <th align=left href='#con'></th>
+   </tr>
+</table>
+
 ### 1. What is C# 
 -  An Object Oriented, Compiled by `.NET` Framework to generate Microsoft Intermediate Language.
 
-### 2. Difference between Public, Static and Void 
+<h3 name='con'>2. Constructor</h3>
+- Automatically invokes whenever an object is created.
+- Initialize Parameters of New Object.
+- `Default` Constructor : A Constructor with no `Arguments`.
+- `Parameterized` Constructor : A Constructor which has `Parameters`.
+
+### 3. Difference between Public, Static and Void 
 - `Public` : Public declared variables or methods are accessible anywhere in the application
 - `Static` : Static declared variables or methods are accessible without creating any instance of the class.
 - `Void`   : The variables or methods doesn't return any value.
 
-### 3. Object : Instance of Class, through which we access the methods.
-   e.g Class     : Car 
-       Attribute : Color, Type
-       Method    : Drive, Stop
 
-### 4. Constructor : Automatically invokes | called whenever an object is created.
 
-### 5. ref parameters : An Argument passed as reference must be initialized before passing to method.
+### 4. ref parameters : An Argument passed as reference must be initialized before passing to method.
 
-### 6. out parameters : No need to initialized before passing to method.
+### 5. out parameters : No need to initialized before passing to method.
 
 ### 7. use of 'using' statement ?
 -  Obtain a resource and process it and automatically dispose after execution.
