@@ -1,7 +1,7 @@
 ### Object Oriented Programming Concepts
 
 <table>
-  <tr><th align=left><a href= "class">1. Class</a></th></tr>
+  <tr><th align=left><a href= "class">1. Class</a></th>
 <th align=left><a href= "obj">2. Object</a></th>
 <th align=left><a href= "abs">3. Abstraction</a></th>
 <th align=left><a href= "enc">4. Encapsulation</a></th>
