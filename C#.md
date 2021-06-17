@@ -8,6 +8,9 @@
       <th align=left><a href='#type'>Data Type</a></th>
       <th align=left><a href='#ado'>ADO</a></th>
       <th align=left><a href='#set'>Data Set vs Data Reader</a></th>
+      <th align=left><a href='#scalar'>ExecuteScalar</a></th>
+      <th align=left><a href='#reader'>ExecuteReader</a></th>
+      <th align=left><a href='#non'>ExecuteNonQuery</a></th>
    </tr>
 </table>
 
@@ -75,15 +78,18 @@ DataSet |  DataReader
 `Slow` Access | `Fast` Access
 No need of Connection | Need Connection
 
-6. ExecuteScalar 
- - Used when Query Returns Single Value. (First Row or First Column from the Database)
+<h3 name='scalar'>6. ExecuteScalar</h3> 
 
-7. ExecuteReader 
- - Used when Query Returns Multiple Value (Set of Rows and Columns)
+- Used when Query Returns `Single` Value. ( First Row or First Column from the Database )
 
-8. ExecuteNonQuery
- - Used when Query doesn't returns Data from Database. 
- - Only returns Integer specifying Number of Rows Inserted, Updated or Deleted.	
+<h3 name='reader'>7. ExecuteReader</h3> 
+
+- Used when Query Returns `Multiple` Value ( Set of Rows and Columns )
+
+<h3 name='non'>8. ExecuteNonQuery</h3>
+
+- Used when Query `doesn't` returns Data from Database. 
+- Only returns `Integer` specifying Number of Rows Inserted, Updated or Deleted.	
 
 9. Clustered Index 
  - Defines the Order in which Data is Physically stored in a Table.
