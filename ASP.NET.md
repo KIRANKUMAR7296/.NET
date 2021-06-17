@@ -33,6 +33,6 @@ Validation Control |	Description
 RequiredFieldValidation |	Makes an Input Control a required field ( Texbox with * )
 CompareValidator |	Compares the value of one input control to the value of another input control or to a fixed value.
 RangeValidator |	Checks that the user enters a value that falls between two values range.
-RegularExpressionValidator |	Ensures that the value of an input control matches a specified pattern.
+RegularExpressionValidator |	Ensures that the value of an input control matches a specified Pattern ( Email Address, Mobile No, Pincode ).
 CustomValidator |	Allows you to write a method to handle the validation of the value entered.
 ValidationSummary |	Displays a report of all validation errors occurred in a Web page.
