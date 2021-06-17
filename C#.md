@@ -102,50 +102,58 @@ Stores `Data Value` in Memory Space | Stores `Address` of Object where the value
 
 Array | Array List
 :--- | :---
-Fixed Size Data Structure | Not Fixed Size
-Access by \[index] | Access by using Methods
+`Fixed` Size Data Structure | Not Fixed Size Data Structure
+Access by `Index` | Access by using `Method`
 
-16. System.String vs System.Text.StringBuilder 
--   System.String : Immutable (Cannot Change the value) 
-    if we modify value of String then New memory is allocated and old memory is released.
+### 16. System.String vs System.Text.StringBuilder 
 
--   System.Text.StringBuilder :  Mutable (Can change the Value)
-    Value can be modified at same memory location.
+`System.String` :  | `System.Text.StringBuilder`
+:--- | :---
+Immutable (Cannot Change the value) | Mutable (Can change the Value)
+If we `modify` value of String then New memory is allocated and old memory is released. | Value can be modified at same memory location.
 
-17. System.Array.CopyTo() vs System.Array.Clone()
--   Both performs shallow copy
-    Clone  : Creates a same copy of Array. 
-    CopyTo : Copies value of One Array into another New Array.
+### 17. System.Array.CopyTo() vs System.Array.Clone()
 
-18. Finalize() vs Dispose()
-- Dispose()  : Called when we want object to completely release resource.
-  Finalize() : Do same but do not assure garbage collection of an Object (do not leave memory allocation)
+- Both performs `Shallow` Copy.
+- `Clone`  : Creates a same copy of Array. 
+- `CopyTo` : Copies value of One Array into another New Array.
 
-19 Circular Reference 
+### 18. Finalize() vs Dispose()
+
+- `Dispose()` : Called when we want object to completely release resource.
+- `Finalize()` : Do same but do not assure garbage collection of an Object (do not leave memory allocation)
+
+### 19 Circular Reference 
+
 - Situation in which two or more resource are dependent on each other and cause lock condition.
 
-20 Generics in C# ?
+### 20 Generics in C# ?
+
 - Used to make reusable class to reduce redundancy, increase performance and save time.
 
-21 Object Pool ?
+### 21 Object Pool ?
+
 - Container having Objects to be used. Keep track of available Objects and Objects currently in use.
 
-22 What are Custom Exceptions ? 
+### 22 What are Custom Exceptions ? 
+
 - Some Errors are need to be handles as per user requirement.
 
-23 How to Inherit Class ?
+### 23 How to Inherit Class ?
+
 - public class DerivedClass : BaseClass
+> Derived Class : Child Class  : Sub Class  
+> Base Class    : Parent Class : Super Class 
 
-Other Name for ( Derived Class : Child Class  : Sub Class   )
-Other Name for ( Base Class    : Parent Class : Super Class )
+### 24. What is the base class in .net from which all the classes are derived from ? ***
 
-24. What is the base class in .net from which all the classes are derived from ? ***
-- System.Object
+- `System.Object`
 
-25. What are the different ways a method can be overloaded ?
+### 25. What are the different ways a method can be overloaded ?
+
 - Different Data Types of Parameter (Data Type of the New Parameters can be changed while Deriving New)
-  Different Order of Parameters (Order of the Parameters can be changed while Deriving New Class)
-  Different Number of Parameters (New Parameters can be added while Deriving New Class)
+- Different Order of Parameters (Order of the Parameters can be changed while Deriving New Class)
+- Different Number of Parameters (New Parameters can be added while Deriving New Class)
 
 Struct | Class
 :--- | :--- 
