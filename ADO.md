@@ -1,6 +1,6 @@
 # ADO.NET 
 
-<h3 name='ado'>4. ADO.NET ( ActiveX Data Object )</h3>
+<h3 name='ado'>1. ADO.NET ( ActiveX Data Object )</h3>
 
 - Bridge between Front end `Controls` and backend `Database`.
 - Encapsulates all the Data Access Operations, Control Interactions and Display Data.
@@ -14,7 +14,7 @@
 - `DataReader` : `Read only` Access to Data in Database.
 - `DataRelationCollection` : Represents relationship between two `Tables`.
 
-<h3 name='set'>5. DataSet vs DataReader</h3>
+<h3 name='set'>2. DataSet vs DataReader</h3>
 
 DataSet |  DataReader 
 :--- | :---
@@ -22,15 +22,15 @@ DataSet |  DataReader
 `Slow` Access | `Fast` Access
 No need of Connection | Need Connection
 
-<h3 name='scalar'>6. ExecuteScalar</h3> 
+<h3 name='scalar'>3. ExecuteScalar</h3> 
 
 - Used when Query Returns `Single` Value. ( First Row or First Column from the Database )
 
-<h3 name='reader'>7. ExecuteReader</h3> 
+<h3 name='reader'>4. ExecuteReader</h3> 
 
 - Used when Query Returns `Multiple` Value ( Set of Rows and Columns )
 
-<h3 name='non'>8. ExecuteNonQuery</h3>
+<h3 name='non'>5. ExecuteNonQuery</h3>
 
 - Used when Query `doesn't` returns Data from Database. 
 - Only returns `Integer` specifying Number of Rows Inserted, Updated or Deleted.	
