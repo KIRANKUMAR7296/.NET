@@ -36,3 +36,9 @@ RangeValidator |	Checks that the user enters a value that falls between two valu
 RegularExpressionValidator |	Ensures that the value of an input control matches a specified Pattern ( Email Address, Mobile No, Pincode )
 CustomValidator |	Allows you to write a method to handle the validation of the value entered.
 ValidationSummary |	Displays a report of all validation errors occurred in a Web page.
+
+### Page Life Cycle Stages
+
+Stage | Description
+:--- | :---
+Page Request | Page is Requested by User, ASP.NET Determines whether the Request is Fresh Page request or Cache Version is Requested
