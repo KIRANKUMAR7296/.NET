@@ -14,39 +14,46 @@
 
 <h3 name='con'>2. Constructor</h3>
 
-- Automatically invokes whenever an object is created.
-- Initialize Parameters of New Object.
+- Automatically `invokes` whenever an object is created.
+- Initialize `Data Members` of New Object.
 - `Default` Constructor : A Constructor with no `Arguments`.
 - `Parameterized` Constructor : A Constructor which has `Parameters`.
 
 ### 3. Difference between Public, Static and Void 
 
-- `Public` : Public declared variables or methods are accessible anywhere in the application
+- `Public` : Public declared variables or methods are accessible anywhere in the application.
 - `Static` : Static declared variables or methods are accessible without creating any instance of the class.
 - `Void`   : The variables or methods doesn't return any value.
 
+### 4. ref parameters 
 
+- Argument passed as reference must be initialized before passing to method.
 
-### 4. ref parameters : An Argument passed as reference must be initialized before passing to method.
+### 5. out parameters
 
-### 5. out parameters : No need to initialized before passing to method.
+- No need to be initialized before passing to method.
 
 ### 7. use of 'using' statement ?
--  Obtain a resource and process it and automatically dispose after execution.
+
+- Obtain a resource and process it and automatically dispose after execution.
 
 ### 8. What is Serialization ?
--  Converting Object into Byte Stream.
 
-9. What is Deserialization ? 
--  Creating an Object from a Stream of Bytes.
+- Converting `Object` into `Byte Stream`.
 
-10. Constants vs Read Only 
--   Constant Variables are declared and Initialized at Compile Time
--   Read Only is used only to assign value at Run Time.
+### 9. What is Deserialization ? 
+
+- Creating an `Object` from a `Byte Stream`.
+
+### 10. Constants vs Read Only 
+
+- `Constant` Variables are declared and Initialized at `Compile` Time.
+- `Read Only` is used only to assign value at `Run` Time.
 
 11. Value type and Reference Type ?
--   Value Type : Holds a Data Value within its Memory Space.
-    Reference Type : Stores address of Object where the value is stored. (Pointer to Memory Location)
+
+- `Value` Type : Stores `Data Value` in Memory Space.
+- `Reference` Type : Stores `Address` of Object where the value is stored. ( Pointer to Memory Location )
 
 12. Custom Controls ?
 -   Controls generated as Compiled Code (.dlls)
@@ -55,15 +62,12 @@
 -   we can use them by adding reference.
 
 13. Sealed Class ?
--   Restricts the class from Inheritance. (Sealed class can be used to Create another class)
-
-14. Method Overloading and Method Overriding ?
--   Overloading  : Creating Multiple Methods with same name but with different (unique) Parameters.
-    Overriding   : Changing Attributes and Methods while Deriving New Class from Existing one. 
+-   `Restricts` the class from Inheritance. ( Sealed class can be used to Create another class )
 
 15. Array vs Array List ?
--   Array      : Fixed Size Data Structure. | Access by [index] 
-    Array List : Not Fixed Size. | Part of Collection Framework | Access by using Methods.
+
+- `Array` : Fixed Size Data Structure. | Access by [index] 
+- `Array List` : Not Fixed Size. | Part of Collection Framework | Access by using Methods.
 
 16. System.String vs System.Text.StringBuilder 
 -   System.String : Immutable (Cannot Change the value) 
