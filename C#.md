@@ -2,9 +2,9 @@
 
 <table>
    <tr>
-      <th align=left href='#con'>Constructor</th>
-      <th align=left href='#con'></th>
-      <th align=left href='#con'></th>
+      <th align=left><a href='#con'>Constructor</a></th>
+      <th align=left></th>
+      <th align=left></th>
    </tr>
 </table>
 
