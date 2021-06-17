@@ -11,12 +11,12 @@
       <ul>
         <li>Session ( Stores Information and Identity )</li>
         <li>Application ( Stores User Activity )</li>
-        <li>Cache ( Stores Data )</li>
+        <li>Cache ( Stores Data for Fast Operation )</li>
       </ul>
     </td>    
     <td>
       <ul>
-        <li>Cookies ( Stores User Information )</li>
+        <li>Cookies ( Stores User Information, Session and Application )</li>
         <li>Viewstate ( Stores any type of Data used for Sending and Receiving Information. )</li>
         <li>Controlstate</li>
         <li>Query String ( Stores the value in URL, Visible to all Users. )</li>
