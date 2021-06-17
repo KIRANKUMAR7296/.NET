@@ -14,7 +14,15 @@
 
 <h3 name='class'>1. Class</h3>
 
-- Blueprint or Template that Describes Attributes (Physical Properties) and Method(Behavior) of a Object.
+- Blueprint or Template that Describes Attributes ( Physical Properties | Data Members ) and Method( Behavior ) of a Object.
+
+```C#
+public class Student  
+ {  
+     int id; 
+     String name; 
+ }  
+```
 
 <h3 name='int'>2. Interface</h3>
 
@@ -24,10 +32,12 @@
 
 ```C#
 using System;  
+
 public interface Draw
 {  
     void draw();  
 }  
+
 public class Rectangle : Draw  
 {  
     public void draw()  
@@ -35,6 +45,7 @@ public class Rectangle : Draw
         Console.WriteLine("Drawing Rectangle...");  
     }  
 }  
+
 public class Circle : Draw
 {  
     public void draw()  
@@ -42,6 +53,7 @@ public class Circle : Draw
         Console.WriteLine("Drawing Circle...");  
     }  
 }  
+
 public class TestInterface  
 {  
     public static void Main()  
@@ -63,6 +75,10 @@ Drawing Circle...
 
 <h3 name='obj'>3. Object</h3> 
 - Instance of Class which has Property and Method
+
+```C#
+Student s1 = new Student();
+```
 
 - e.g. 
 - `Person` is a `Class` 
