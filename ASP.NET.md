@@ -17,7 +17,7 @@
     <td>
       <ul>
         <li>Cookies ( Stores User Information )</li>
-        <li>Viewstate ( Stores Any type of Data )</li>
+        <li>Viewstate ( Stores Any type of Data used for Sending and Receiving Information )</li>
         <li>Controlstate</li>
         <li>Query String ( Store the Value in URL )</li>
         <li>Hidden Field ( Store Value to Client Side )</li>
