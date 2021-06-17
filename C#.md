@@ -151,9 +151,9 @@ If we `modify` value of String then New memory is allocated and old memory is re
 
 ### 25. What are the different ways a method can be overloaded ?
 
-- Different Data Types of Parameter (Data Type of the New Parameters can be changed while Deriving New)
-- Different Order of Parameters (Order of the Parameters can be changed while Deriving New Class)
-- Different Number of Parameters (New Parameters can be added while Deriving New Class)
+- Different `Data Types` of Parameter ( Data Type of the New Parameters can be `changed` while Deriving New )
+- Different `Order` of Parameters ( `Order` of the Parameters can be `changed` while Deriving New Class )
+- Different `Number` of Parameters ( New Parameters can be `added` while Deriving New Class )
 
 Struct | Class
 :--- | :--- 
