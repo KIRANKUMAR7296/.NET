@@ -3,18 +3,15 @@
 ### State Management
 - `Maintain` and `Store` the Information of any User till the end of the `User Session`.
 
-### Session
-- Store `Information` and `Identity`.
-
 <table align=center>
   <tr><th colspan=2>State Management</th></tr>
   <tr><th>Server Side</th><th>Client Side</th></tr>
   <tr>
     <td>
       <ul>
-        <li>Session ( Store info and identity )</li>
-        <li>Application ( Store user activity )</li>
-        <li>Cache ( Store data )</li>
+        <li>Session ( Stores Information and Identity )</li>
+        <li>Application ( Stores User Activity )</li>
+        <li>Cache ( Stores Data )</li>
       </ul>
     </td>    
     <td>
