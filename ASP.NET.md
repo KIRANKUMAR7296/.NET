@@ -12,18 +12,18 @@
   <tr>
     <td>
       <ul>
-        <li>Session</li>
-        <li>Application</li>
-        <li>Cache</li>
+        <li>Session ( Store info and identity )</li>
+        <li>Application ( Store user activity )</li>
+        <li>Cache ( Store data )</li>
       </ul>
     </td>    
     <td>
       <ul>
-        <li>Cookies</li>
-        <li>Viewstate</li>
+        <li>Cookies ( Store user information )</li>
+        <li>Viewstate ( Stores any type of Data )</li>
         <li>Controlstate</li>
-        <li>Query String</li>
-        <li>Hidden Field ( Store Value to Client Side, Not displayed on Browser )</li>
+        <li>Query String ( Store the value in URL )</li>
+        <li>Hidden Field ( Store value to client side )</li>
       </ul>
     </td>    
   </tr>
