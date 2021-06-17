@@ -11,7 +11,7 @@
       <ul>
         <li>Session ( Stores Information and Identity )</li>
         <li>Application ( Stores User Activity )</li>
-        <li>Cache ( Stores Data Temporarily in CPU Memory )</li>
+        <li>Cache ( Stores Data in CPU Memory )</li>
       </ul>
     </td>    
     <td>
