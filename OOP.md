@@ -10,11 +10,11 @@
   </tr>
 </table>
 
-<h3 name='class'>Class</h3>
+<h3 name='class'>1. Class</h3>
 
 - Blueprint or Template that Describes Attributes (Physical Properties) and Method(Behavior) of a Object.
 
-<h3 name='obj'>Object</h3> 
+<h3 name='obj'>2. Object</h3> 
 - Instance of Class which has Property and Method
 
 - e.g. 
@@ -23,18 +23,18 @@
 - `Property` : Dia has some `Attributes` ( Height, Weight, Color, Gender )    
 - `Method` : `Behavior` and `Actions` of Dia ( Talk, Run, Play, Fight, Sing, Cry )
 
-<h3 name='abs'>Abstraction</h3>
+<h3 name='abs'>3. Abstraction</h3>
 - Show only Important Information and `Hide` the Unnecessary Background Information.
 - Main Purpose is to Hide the Unnecessary Details from Users.
 - Help to Reduce Program `Complexity`.
 
-<h3 name='enc'>Encapsulation</h3> 
+<h3 name='enc'>4. Encapsulation</h3> 
 - Bind together the `Data` and `Function` ( Class = Properties + Method )
 - `Class` : Car
 - `Properties` : ( Physical Attributes of Car | Color, Type, Size, Name, Model )
 - `Method` : ( Action Performed by the Car | Use of Car | Drive | Stop )
 
-<h3 name='poly'>Polymorphism (Many Forms)</h3>
+<h3 name='poly'>5. Polymorphism (Many Forms)</h3>
 - Having more than one form.
 - e.g A Person at same time can have different Characteristics.
 ( Like a Man at same time is a Father, a Husband, an Employee and Different Behaviour at Different Situation )
@@ -45,7 +45,7 @@
  
 > Child Class  | Derived Class | Sub Class
 
-<h3 name='inh'>Inheritance</h3> 
+<h3 name='inh'>6. Inheritance</h3> 
 - The Process in which one class acquire the Property and Method of another Class.
 - e,g `Child` Inherits from `Mom` and `Dad`.
 
