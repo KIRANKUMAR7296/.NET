@@ -3,7 +3,7 @@
 <table>
    <tr>
       <th align=left><a href='#con'>Constructor</a></th>
-      <th align=left></th>
+      <th align=left><a href='#gc'>Garbage Collector</a></th>
       <th align=left></th>
    </tr>
 </table>
@@ -18,6 +18,64 @@
 - Initialize `Data Members` of New Object.
 - `Default` Constructor : A Constructor with no `Arguments`.
 - `Parameterized` Constructor : A Constructor which has `Parameters`.
+
+<h3 name='con'>3. Garbage Collector</h3> 
+
+-  An Automatic Memory Manager ( `Allocate` and `Release` Memory for Objects )
+
+<h3 name='box'>Boxing vs Unboxing
+
+Boxing | Unboxing
+:--- | :---
+Converting a Value Type (Char, Int) to Reference Type (Object) | Converting Reference Type into Value Type 
+Store in `Heap` | Store in `Stack`
+e.g. int num = 7;     // num = Value Type Variable  | e.g. int num = 7;        
+object obj = num;    // Boxing : obj = Object Reference Type | object obj = num;  // Boxing
+| int i = (int)obj;  // Unboxing
+
+   
+
+4. ADO.NET (ActiveX )
+ - Bridge between Front end controls and backend database.
+ - Encapsulates all the Data Access Operations, Control Interactions and Display Data.
+
+   Data Provider : Connection, Command and DataAdapter (Select, Insert, Delete and Update Command)
+   DataSet : DataRelationCollection and DataTableCollection (DataTable, Rows, Columns and Constraints)
+
+   Connection  : Connect Data Source for performing Operations.
+   Command     : Query or Stored Procedure to and from Database for Extracting, Transforming or Loading data.
+   DataAdapter : Helps DataSet to Load Data from Multiple Databases or Data Source.
+   DataReader  : Read only Access to Data in Database.
+   DataRelationCollection : represents relationship between two tables.
+
+5. DataSet vs DataReader
+
+   DataSet                   |  DataReader 
+   Read Write Access to Data |  Read Only Access to Data
+   Slow Access               |  Fast Access
+   No need of Connection     |  Need Connection
+
+6. ExecuteScalar 
+ - Used when Query Returns Single Value. (First Row or First Column from the Database)
+
+7. ExecuteReader 
+ - Used when Query Returns Multiple Value (Set of Rows and Columns)
+
+8. ExecuteNonQuery
+ - Used when Query doesn't returns Data from Database. 
+ - Only returns Integer specifying Number of Rows Inserted, Updated or Deleted.	
+
+9. Clustered Index 
+ - Defines the Order in which Data is Physically stored in a Table.
+ - When we Create a Table with ID as PRIMARY KEY, this Automatically creates Clustered Index.
+
+10. Non Clustered Index 
+ - Doesn't Sort the Physical Data inside the Table.
+ - Non Clustered Index is stored at different place then the Table Data.
+ - e.g. Textbook content | Index is located on first page but the actual content is all at different pages.
+ - Index contains column value and Address of the Record.
+
+
 
 ### 3. Difference between Public, Static and Void 
 
