@@ -1,12 +1,14 @@
 ### Object Oriented Programming Concepts
 
 <table>
-  <tr><th align=left><a href= "#class">1. Class</a></th>
-      <th align=left><a href= "#obj">2. Object</a></th>
-      <th align=left><a href= "#abs">3. Abstraction</a></th>
-      <th align=left><a href= "#enc">4. Encapsulation</a></th>
-      <th align=left><a href= "#poly">5. Polymorphism</a></th>
-      <th align=left><a href= "#inh">6. Inheritance</a></th>
+  <tr>
+    <th align=left><a href= "#class">1. Class</a></th>
+    <th align=left><a href= "#int">2. Interface</a></th>
+    <th align=left><a href= "#obj">3. Object</a></th>
+    <th align=left><a href= "#abs">4. Abstraction</a></th>
+    <th align=left><a href= "#enc">5. Encapsulation</a></th>
+    <th align=left><a href= "#poly"6. Polymorphism</a></th>
+    <th align=left><a href= "#inh">7. Inheritance</a></th>
   </tr>
 </table>
 
@@ -14,7 +16,52 @@
 
 - Blueprint or Template that Describes Attributes (Physical Properties) and Method(Behavior) of a Object.
 
-<h3 name='obj'>2. Object</h3> 
+<h3 name='int'>2. Interface</h3>
+
+- `Blueprint` of a `Class`.
+- Methods declared inside the Interface are `Abstract` Methods.
+- Used to Achieve `Multiple` Inheritance.
+
+```C#
+using System;  
+public interface Draw
+{  
+    void draw();  
+}  
+public class Rectangle : Draw  
+{  
+    public void draw()  
+    {  
+        Console.WriteLine("Drawing Rectangle...");  
+    }  
+}  
+public class Circle : Draw
+{  
+    public void draw()  
+    {  
+        Console.WriteLine("Drawing Circle...");  
+    }  
+}  
+public class TestInterface  
+{  
+    public static void Main()  
+    {  
+        Draw d;  
+        d = new Rectangle();  
+        d.draw();  
+        d = new Circle();  
+        d.draw();  
+    }  
+}  
+```
+
+```C#
+Output :
+Drawing Rectangle...
+Drawing Circle...
+```
+
+<h3 name='obj'>3. Object</h3> 
 - Instance of Class which has Property and Method
 
 - e.g. 
@@ -23,18 +70,18 @@
 - `Property` : Dia has some `Attributes` ( Height, Weight, Color, Gender )    
 - `Method` : `Behavior` and `Actions` of Dia ( Talk, Run, Play, Fight, Sing, Cry )
 
-<h3 name='abs'>3. Abstraction</h3>
+<h3 name='abs'>4. Abstraction</h3>
 - Show only Important Information and `Hide` the Unnecessary Background Information.
 - Main Purpose is to Hide the Unnecessary Details from Users.
 - Help to Reduce Program `Complexity`.
 
-<h3 name='enc'>4. Encapsulation</h3> 
+<h3 name='enc'>5. Encapsulation</h3> 
 - Bind together the `Data` and `Function` ( Class = Properties + Method )
 - `Class` : Car
 - `Properties` : ( Physical Attributes of Car | Color, Type, Size, Name, Model )
 - `Method` : ( Action Performed by the Car | Use of Car | Drive | Stop )
 
-<h3 name='poly'>5. Polymorphism (Many Forms)</h3>
+<h3 name='poly'>6. Polymorphism (Many Forms)</h3>
 - Having more than one form.
 - e.g A Person at same time can have different Characteristics.
 ( Like a Man at same time is a Father, a Husband, an Employee and Different Behaviour at Different Situation )
@@ -45,7 +92,7 @@
  
 > Child Class  | Derived Class | Sub Class
 
-<h3 name='inh'>6. Inheritance</h3> 
+<h3 name='inh'>7. Inheritance</h3> 
 - The Process in which one class acquire the Property and Method of another Class.
 - e,g `Child` Inherits from `Mom` and `Dad`.
 
