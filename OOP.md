@@ -2,11 +2,11 @@
 
 <table>
   <tr><th align=left><a href= "class">1. Class</a></th></tr>
-<tr><th align=left><a href= "obj">2. Object</a></th></tr>
-<tr><th align=left><a href= "abs">3. Abstraction</a></th></tr>
-<tr><th align=left><a href= "enc">4. Encapsulation</a></th></tr>
-<tr><th align=left><a href= "poly">5. Polymorphism</a></th></tr>
-<tr><th align=left><a href= "inh">6. Inheritance</a></th></tr>
+<th align=left><a href= "obj">2. Object</a></th>
+<th align=left><a href= "abs">3. Abstraction</a></th>
+<th align=left><a href= "enc">4. Encapsulation</a></th>
+<th align=left><a href= "poly">5. Polymorphism</a></th>
+<th align=left><a href= "inh">6. Inheritance</a></th></tr>
 </table>
 
 ### Class 
