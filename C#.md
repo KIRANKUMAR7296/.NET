@@ -111,9 +111,8 @@ Other Name for ( Base Class    : Parent Class : Super Class )
   Different Order of Parameters (Order of the Parameters can be changed while Deriving New Class)
   Different Number of Parameters (New Parameters can be added while Deriving New Class)
 
-26. Struct vs Class
--  | Struct                                       | Class                                  |
-   | -------------------------------------------- - -------------------------------------- |
-   | Stored on the Stack.                         | Stored on the Heap.                    |
-   | Do not support Inheritance and Polymorphism. | Supports Inheritance and Polymorphism. |
+Struct | Class
+:--- | :--- 
+Stored on the `Stack`. | Stored on the `Heap`
+Do not support Inheritance and Polymorphism | Supports Inheritance and Polymorphism 
 
