@@ -8,6 +8,8 @@
       <th align=left><a href='#type'>Data Type</a></th>
       <th align=left><a href='#ado'>ADO</a></th>
       <th align=left><a href='#set'>Data Set vs Data Reader</a></th>
+   </tr>
+   <tr>
       <th align=left><a href='#scalar'>ExecuteScalar</a></th>
       <th align=left><a href='#reader'>ExecuteReader</a></th>
       <th align=left><a href='#non'>ExecuteNonQuery</a></th>
