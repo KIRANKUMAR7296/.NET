@@ -1,5 +1,16 @@
 # ADO.NET 
 
+<table>
+   <tr>      
+      <th align=left><a href='#ado'>ADO</a></th>
+      <th align=left><a href='#set'>Data Set vs Data Reader</a></th>   
+      <th align=left><a href='#scalar'>ExecuteScalar</a></th>
+      <th align=left><a href='#reader'>ExecuteReader</a></th>
+      <th align=left><a href='#non'>ExecuteNonQuery</a></th>          
+   </tr>
+</table>
+  
+
 <h3 name='ado'>1. ADO.NET ( ActiveX Data Object )</h3>
 
 - Bridge between Front end `Controls` and backend `Database`.
