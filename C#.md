@@ -5,6 +5,7 @@
       <th align=left><a href='#con'>Constructor</a></th>
       <th align=left><a href='#gc'>Garbage Collector</a></th>
       <th align=left><a href='#box'>Boxing and Unboxing</a></th>
+      <th align=left><a href='#type'>Data Type</a></th>
    </tr>
 </table>
 
@@ -42,7 +43,13 @@ int num = 7;
 object obj = num;  // Boxing
 int i = (int)obj;  // Unboxing
 ```
-   
+<h3 name='type'>5. Data Types</h3>
+
+Type | Data Type
+:--- | :---
+Value | short, int, char, float, double 
+Reference | String, Class, Object and Interface
+Pointer | Pointers
 
 4. ADO.NET (ActiveX )
  - Bridge between Front end controls and backend database.
