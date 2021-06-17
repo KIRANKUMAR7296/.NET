@@ -10,6 +10,4 @@
 
 [SQL](https://github.com/KIRANKUMAR7296/SQL)
 
-[Subsets of SQL](https://github.com/KIRANKUMAR7296/Library/blob/main/SQL/SQL.md)
-
 
