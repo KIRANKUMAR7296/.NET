@@ -9,6 +9,7 @@
 </table>
 
 ### 1. What is C# 
+
 -  An Object Oriented, Compiled by `.NET` Framework to generate Microsoft Intermediate Language.
 
 <h3 name='con'>2. Constructor</h3>
@@ -19,6 +20,7 @@
 - `Parameterized` Constructor : A Constructor which has `Parameters`.
 
 ### 3. Difference between Public, Static and Void 
+
 - `Public` : Public declared variables or methods are accessible anywhere in the application
 - `Static` : Static declared variables or methods are accessible without creating any instance of the class.
 - `Void`   : The variables or methods doesn't return any value.
