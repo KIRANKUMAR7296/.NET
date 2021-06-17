@@ -5,14 +5,7 @@
       <th align=left><a href='#con'>Constructor</a></th>
       <th align=left><a href='#gc'>Garbage Collector</a></th>
       <th align=left><a href='#box'>Boxing and Unboxing</a></th>
-      <th align=left><a href='#type'>Data Type</a></th>
-      <th align=left><a href='#ado'>ADO</a></th>
-      <th align=left><a href='#set'>Data Set vs Data Reader</a></th>
-   </tr>
-   <tr>
-      <th align=left><a href='#scalar'>ExecuteScalar</a></th>
-      <th align=left><a href='#reader'>ExecuteReader</a></th>
-      <th align=left><a href='#non'>ExecuteNonQuery</a></th>
+      <th align=left><a href='#type'>Data Type</a></th>      
       <th align=left><a href='#cluster'>Clustered Index</a></th>
       <th align=left><a href='#noncluster'>Non Clustered Index</a></th>
    </tr>
