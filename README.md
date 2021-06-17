@@ -10,4 +10,6 @@
 
 [SQL](https://github.com/KIRANKUMAR7296/SQL)
 
+[Joins](https://github.com/KIRANKUMAR7296/SQL/blob/main/JOINS.md)
+
 
