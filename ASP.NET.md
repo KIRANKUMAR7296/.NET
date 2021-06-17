@@ -41,4 +41,11 @@ ValidationSummary |	Displays a report of all validation errors occurred in a Web
 
 Stage | Description
 :--- | :---
-Page Request | Page is Requested by User, ASP.NET Determines whether the Request is Fresh Page request or Cache Version is Requested
+Page Request | ASP.NET Determines whether the User Requests a `Fresh` Page request or `Cache` Version.
+Start | ASP.NET Determines whether the Request is `PostBack` or a `New Request`.
+Initialization | Controls and Properties are set ( Dropdowns are filled ) 
+Load | If Request is PostBack, Informations are recovered from View State and Control State.
+Postback event handling | Validations are checked ( e.g. Whether Textbox are filled or not )
+Rendering | Viewstate is saved for the Page and all controls.
+Unload |  Page properties are unloaded and cleanup is performed.
+
