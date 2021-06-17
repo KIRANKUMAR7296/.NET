@@ -51,55 +51,59 @@ Type | Data Type
 `Reference` | `String`, `Class`, `Object` and `Interface`
 `Pointer` | `Pointers`
 
-### 3. Difference between Public, Static and Void 
+### 6. Difference between Public, Static and Void 
 
 - `Public` : Public declared variables or methods are accessible anywhere in the application.
 - `Static` : Static declared variables or methods are accessible without creating any instance of the class.
 - `Void`   : The variables or methods doesn't return any value.
 
-### 4. ref parameters 
+### 7. ref parameters 
 
 - Argument passed as reference must be initialized before passing to method.
 
-### 5. out parameters
+### 8. out parameters
 
 - No need to be initialized before passing to method.
 
-### 7. use of 'using' statement ?
+### 9. use of 'using' statement ?
 
 - Obtain a resource and process it and automatically dispose after execution.
 
-### 8. What is Serialization ?
+### 10. Serialization vs Deserialization
 
-- Converting `Object` into `Byte Stream`.
+Serialization | Deserialization
+:--- | :---
+Converting `Object` into `Byte Stream` | Creating an `Object` from a `Byte Stream`.
 
-### 9. What is Deserialization ? 
+### 11. Constants vs Read Only 
 
-- Creating an `Object` from a `Byte Stream`.
+Constant | Read Only
+:--- | :---
+Variables are Declared and Initialized at `Compile` Time | `Read Only` is used only to assign value at `Run` Time
 
-### 10. Constants vs Read Only 
+### 12. Value type and Reference Type ?
 
-- `Constant` Variables are declared and Initialized at `Compile` Time.
-- `Read Only` is used only to assign value at `Run` Time.
+Value | Reference
+:--- | :---
+Stores `Data Value` in Memory Space | Stores `Address` of Object where the value is stored.
 
-11. Value type and Reference Type ?
+### 13. Custom Controls ?
 
-- `Value` Type : Stores `Data Value` in Memory Space.
-- `Reference` Type : Stores `Address` of Object where the value is stored. ( Pointer to Memory Location )
+- Controls generated as Compiled Code (.dlls)
+- Developer can Drag and Drop to Web Forms
+- `dll` are stored in `bin` folder of the project.
+- we can use them by adding reference.
 
-12. Custom Controls ?
--   Controls generated as Compiled Code (.dlls)
--   Developer can Drag and Drop to Web Forms
--   dll are stored in bin folder of the project.
--   we can use them by adding reference.
+### 14. Sealed Class ?
 
-13. Sealed Class ?
--   `Restricts` the class from Inheritance. ( Sealed class can be used to Create another class )
+- `Restricts` the class from Inheritance. ( Sealed class can be used to Create another class )
 
-15. Array vs Array List ?
+### 15. Array vs Array List ?
 
-- `Array` : Fixed Size Data Structure. | Access by [index] 
-- `Array List` : Not Fixed Size. | Part of Collection Framework | Access by using Methods.
+Array | Array List
+:--- | :---
+Fixed Size Data Structure | Not Fixed Size
+Access by \[index] | Access by using Methods
 
 16. System.String vs System.Text.StringBuilder 
 -   System.String : Immutable (Cannot Change the value) 
