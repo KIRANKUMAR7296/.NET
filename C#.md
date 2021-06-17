@@ -67,7 +67,7 @@ Type | Data Type
 - `DataReader` : `Read only` Access to Data in Database.
 - `DataRelationCollection` : Represents relationship between two `Tables`.
 
-<h3 name='ado'>5. DataSet vs DataReader</h3>
+<h3 name='set'>5. DataSet vs DataReader</h3>
 
 DataSet |  DataReader 
 :--- | :---
