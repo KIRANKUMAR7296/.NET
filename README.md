@@ -8,6 +8,6 @@
 
 [OOP](https://github.com/KIRANKUMAR7296/CSharp/blob/main/OOP.md)
 
-[SQL]()
+[SQL](https://github.com/KIRANKUMAR7296/SQL)
 
 
