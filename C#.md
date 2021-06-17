@@ -47,9 +47,9 @@ int i = (int)obj;  // Unboxing
 
 Type | Data Type
 :--- | :---
-Value | short, int, char, float, double 
-Reference | String, Class, Object and Interface
-Pointer | Pointers
+`Value` | `short`, `int`, `char`, `string`, `float`, `double` 
+`Reference` | `String`, `Class`, `Object` and `Interface`
+`Pointer` | `Pointers`
 
 4. ADO.NET (ActiveX )
  - Bridge between Front end controls and backend database.
