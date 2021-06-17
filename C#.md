@@ -34,7 +34,7 @@ Store in `Heap` | Store in `Stack`
 ```c#
 int num = 7;       // num = Value Type Variable        
 object obj = num;  // Boxing
-
+```
 - e.g. Unboxing
 
 ```c#
