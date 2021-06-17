@@ -47,5 +47,5 @@ Initialization | Controls and Properties are set ( Dropdowns are filled )
 Load | If Request is PostBack, Informations are recovered from View State and Control State.
 Postback event handling | Validations are checked ( e.g. Whether Textbox are filled or not )
 Rendering | Viewstate is saved for the Page and all controls.
-Unload |  Page properties are unloaded and cleanup is performed.
+Unload |  Page properties are unloaded and final cleanup is performed.
 
