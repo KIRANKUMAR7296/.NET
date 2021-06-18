@@ -151,20 +151,3 @@ Student s1 = new Student();
 1. `Sequence` : Step by Step Process ( Follow only One Direction )
 2. `Selection` : Steps taken based on Conditions ( If Else or True False Condition )
 3. `Iterations` : Repeated Process which can Change the Step based on Certain Conditions.
-
-### String (https://www.w3schools.com/cs/cs_strings.asp)
-- Sequence of `Characters`
-- e.g. Character : 'A', 'K', 'Z'
-- String : 
-
-### Numbers 
-- Integers, Floating Point Numbers, Complex Number, Binary or Hexadecimal Numbers
-
-### Booleans (https://www.w3schools.com/cs/cs_booleans.asp)
-- Only True ( `1` ) and False ( `0` ), Mostly used with Loops and Conditions.
-
-### Array (https://www.w3schools.com/cs/cs_arrays.asp)
-- Store Multiple Values in a Single Variable.
-- e.g. string\[] cars = {"I20", "Swift", "Creta", "Verna"}
-
-
