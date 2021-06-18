@@ -97,6 +97,19 @@ Int16 | Int32 | Int64
 `16` Bit Signed Integer | `32` Bit Signed Integer | `64` Bit Signed Integer
 Takes `2` Bytes Memory Space | Takes `4` Bytes Memory Space | Takes `8` Bytes Memory Space
 
+<h3 name='service'>Web Service</h3>
+
+- `Service` offered by one device to another device.
+- `Communicating` with each other via `World Wide Web`.
+- `Server` running on Computer Device.
+- `Request` and `Response` in the form of `HTML`, `XML`, `JSON`...
+
+<h3 name='api'>Web API</h3>
+
+- Application Programming Interface.
+- A Framework for building `HTTP` Services that can be accessed by Client anywhere.
+- API can be accessed using Browser on `Desktop`, `Laptop`, `Tablet` and `Mobile`.
+
 ### 7. Difference between Public, Static and Void 
 
 - `Public` : Public declared variables or methods are accessible anywhere in the application.
