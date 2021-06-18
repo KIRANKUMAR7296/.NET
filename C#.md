@@ -16,6 +16,8 @@
       <th align=left><a href='#api'>Web API</a></th>
       <th align=left><a href='#iis'>IIS</a></th>
       <th align=left><a href='#grid'>Grid View Binding</a></th>
+      <th align=left><a href='#char'>charAt()</a></th>
+      <th align=left><a href='#each'>foreach()</a></th>
    </tr>
 </table>
 
@@ -127,6 +129,27 @@ Takes `2` Bytes Memory Space | Takes `4` Bytes Memory Space | Takes `8` Bytes Me
 - To `Display` the Data we need to `Bind` the Grid View to the Table in the Database.
 - We Select the Columns we want to Show on Grid View and use `ExecuteReader` to Read Data from Table.
 - Binding requires `Open` Connection and Connection is `Closed` after Binding.
+
+<h3 name='char'>charAt()</h3>
+
+- `charAt()` : Character at specific `Index`.
+- In C# Indexing Starts from `0`.
+
+```c#
+str.charAt(8)  // Character at Index Location 8
+```
+
+<h3 name='each'>foreach()</h3>
+
+- `foreach()` : `Loop` iterate through each Items of an Array or Collection.
+- An alternative to `for` loop
+
+```c#
+foreach (element in iterable-item)
+{
+    // body of foreach loop
+}
+```
 
 ### 7. Difference between Public, Static and Void 
 
