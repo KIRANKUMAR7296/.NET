@@ -17,7 +17,7 @@
 - We have one Main Configuration File : `Web.Config`
 - Then we have two more Configuration Files : `App.Config` and `Database.Config`
 - `App.Config` :  Here we Define all the Application Level Settings ( Protocol, Request, Response )
-- `DatabaseConfig` : Here we Define all the Database Level Settings ( Data Source, Password )
+- `Database.Config` : Here we Define all the Database Level Settings ( Data Source, Password )
 
 ```c#
 <appSettings configSource="app.config">
