@@ -47,11 +47,34 @@ int i = (int)obj;  // Unboxing
 ```
 <h3 name='type'>5. Data Types</h3>
 
-Type | Data Type
-:--- | :---
-`Value` Type | `short`, `int`, `char`, `float`, `double` 
-`Reference` Type | `String`, `Class`, `Object` and `Interface`
-`Pointer` Type | `Pointers`
+<table>
+   <tr><th colspan=3>Data Types in C#</th></tr>
+   <tr><th>Value Type</th><th>Reference Type</th><th>Pointer Type</th></tr>
+   <tr>
+      <td>
+         <ul>
+            <li>short</li>
+            <li>int</li>
+            <li>char</li>
+            <li>float</li>
+            <li>double</li>
+         </ul>
+      </td>
+      <td>
+         <ul>
+            <li>String</li>
+            <li>Class</li>
+            <li>Object</li>
+            <li>Interface</li>
+         </ul>
+      </td>
+       <td>
+         <ul>
+            <li>Pointers</li>
+         </ul>
+      </td>
+   </tr>
+</table>
 
 ### 6. Difference between Public, Static and Void 
 
