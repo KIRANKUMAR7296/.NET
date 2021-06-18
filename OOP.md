@@ -90,8 +90,7 @@ Student s1 = new Student();
 
 <h3 name='abs'>4. Abstraction</h3>
 
-- Show only Important Information and `Hide` the Unnecessary Background Information.
-- Main Purpose is to Hide the Unnecessary Details from Users.
+- `Show` only Important Information and `Hide` Unnecessary Details from Users.
 - Help to Reduce Program `Complexity`.
 
 <h3 name='enc'>5. Encapsulation</h3> 
