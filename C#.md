@@ -14,6 +14,7 @@
    <tr>
       <th align=left><a href='#service'>Web Service</a></th>
       <th align=left><a href='#api'>Web API</a></th>
+      <th align=left><a href='#iis'>IIS</a></th>
    </tr>
 </table>
 
@@ -110,6 +111,14 @@ Takes `2` Bytes Memory Space | Takes `4` Bytes Memory Space | Takes `8` Bytes Me
 - A Framework for building `HTTP` Services that can be accessed by Client anywhere.
 - API can be accessed using Browser on `Desktop`, `Laptop`, `Tablet` and `Mobile`.
 - Supports `JSON` and `XML` format.
+
+<h3 name='iis'>IIS</h3>
+
+- Internet Information Services ( Web Server created by Microsoft )
+- Used to `Host` ASP.NET Web Applications and Static Websites.
+- Inbuilt Authentication and Authorization
+- `Authentication` : Verify whether User is a `Valid` User ( Login Form : User Name and Password )
+- `Authorization` : Check if you have a `Permission` to Access ( Secure Access )
 
 ### 7. Difference between Public, Static and Void 
 
