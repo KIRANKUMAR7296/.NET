@@ -49,7 +49,8 @@ int i = (int)obj;  // Unboxing
 
 <table>
    <tr><th colspan=3>Data Types in C#</th></tr>
-   <tr><th>Value Type (Stores Data Value)</th><th>Reference Type (Stores Address of Object)</th><th>Pointer Type (Stores Memory Address)</th></tr>
+   <tr><th>Value Type</th><th>Reference Type</th><th>Pointer Type</th></tr>
+   <tr><th>Variable holds Data Value</th><th>Variable holds Memory Location</th><th>Variable holds Memory Address</th></tr>
    <tr>
       <td>
          <ul>
@@ -70,10 +71,12 @@ int i = (int)obj;  // Unboxing
       </td>
        <td>
          <ul>
-            <li>Pointers (Variable that holds Memory Address)</li>
+            <li>Pointers</li>
          </ul>
       </td>
    </tr>
+   <tr><th>Default Value is 0</th><th>Default Value is NULL</th><th>Default Value is NULL</th></tr>
+   <tr><th>Assignment means copying Actual Data</th><th>Assignment means copying Reference</th><th></th></tr>
 </table>
 
 ### 6. Difference between Public, Static and Void 
