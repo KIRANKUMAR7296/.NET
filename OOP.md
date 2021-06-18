@@ -143,7 +143,10 @@ Student s1 = new Student();
 - e.g. `Boy` Inherit from `Father` and `Father` Inherit from `Grand Father`.
 
 ### Programming Constructs
+
 - Common Building Blocks to Construct any Program.
+
+<img src='Image/Programming Construct.png'>
 
 1. `Sequence` : Step by Step Process ( Follow only One Direction )
 2. `Selection` : Steps taken based on Conditions ( If Else or True False Condition )
