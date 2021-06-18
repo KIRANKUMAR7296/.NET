@@ -2,6 +2,9 @@
 
 ### State Management
 - `Maintain` and `Store` the Information of any User till the end of the `User Session`.
+- Browser communicates with Server using `HTTP` or `HTTPs` Protocol.
+- Browsers are `Stateless` ( Once the Browser is closed it do not keep the State of `Websites` and `URLs` )
+- When we reopen the Browser we enter the URL again.
 
 <table>
   <tr><th colspan=2>State Management</th></tr>
