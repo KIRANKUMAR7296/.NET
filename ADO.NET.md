@@ -29,9 +29,9 @@
 
 DataSet |  DataReader 
 :--- | :---
-`Read Write` Access to Data | `Read Only` Access to Data
+Has `Read Write` Access to Data | Has `Read Only` Access to Data
 `Slow` Access | `Fast` Access
-No need of Connection | Need Connection
+Do not need Connection | Needs `Connection`
 
 <h3 name='scalar'>3. ExecuteScalar</h3> 
 
