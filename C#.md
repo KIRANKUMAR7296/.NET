@@ -31,7 +31,7 @@
 Boxing | Unboxing
 :--- | :---
 Converting a Value Type (Char, Int) to Reference Type (Object) | Converting Reference Type into Value Type 
-Store in `Heap` | Store in `Stack`
+After conversion the value is stored in `Heap` | After Conversion value is stored in `Stack`
 
 - e.g. Boxing 
 ```c#
