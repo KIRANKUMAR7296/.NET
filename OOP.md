@@ -130,15 +130,15 @@ Student s1 = new Student();
 
 <img src='Image/Inheritance.jpg'>
 
-### 1. Single Inheritance 
+#### 1. Single Inheritance 
 - Class `B` Inherit from Class `A` | New Class is Derived from Base Class
 - e.g. `Boy` Inherit `Father` Properties and Behaviours.
 
-### 2. Multiple Inheritance
+#### 2. Multiple Inheritance
 - Class `A` Inherit from Class `B` and Class `C` | A Class can be Derived from more than One Base Class
 - e.g. Class Truck, Class Car, Class Bus Inherit from Class Vehicle.
 
-### 3. Multilevel Inheritance
+#### 3. Multilevel Inheritance
 - Class `C` Inherit from Class `B` and Class `B` Inherit from Class `A`
 - e.g. `Boy` Inherit from `Father` and `Father` Inherit from `Grand Father`.
 
