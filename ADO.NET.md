@@ -25,9 +25,11 @@
 
 <h3 name='set'>2. DataSet vs DataReader</h3>
 
+- Used to `Get` and `Store` data in a C#.
+
 DataSet |  DataReader 
 :--- | :---
-Has `Read Write` Access to Data | Has `Read Only` Access to Data
+Has `Read Write` Access to Data | Used to Retrieve `Read Only` Data from Database
 `Slow` Access | `Fast` Access
 Do not need Connection | Needs `Connection`
 
