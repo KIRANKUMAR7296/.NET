@@ -17,6 +17,7 @@
 
 - Automatically `invokes` whenever an object is created.
 - Initialize `Data Members` of New Object.
+- `Types` of Constructor 👇🏻
 - `Default` Constructor : A Constructor with no `Arguments`.
 - `Parameterized` Constructor : A Constructor which has `Parameters`.
 
