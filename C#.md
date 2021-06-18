@@ -5,7 +5,8 @@
       <th align=left><a href='#con'>Constructor</a></th>
       <th align=left><a href='#gc'>Garbage Collector</a></th>
       <th align=left><a href='#box'>Boxing and Unboxing</a></th>
-      <th align=left><a href='#type'>Data Type</a></th>         
+      <th align=left><a href='#type'>Data Type</a></th>
+      <th align=left><a href='#int'>Int16 vs Int32 vs Int64</a></th>
    </tr>
 </table>
 
@@ -78,6 +79,13 @@ int i = (int)obj;  // Unboxing
    <tr><td>Default Value is 0</td><td>Default Value is NULL</td><td>Default Value is NULL</td></tr>
    <tr><td>Assignment means copying Actual Data</td><td>Assignment means copying Reference</td><td></td></tr>
 </table>
+
+<h3 name='int'>6. Int16 vs Int32 vs Int64</h3>
+
+Int16 | Int32 | Int64
+:--- | :--- | :---
+`16` Bit Signed Integer | `32` Bit Signed Integer | `64` Bit Signed Integer
+Takes `2` Bytes Memory Space | Takes `4` Bytes Memory Space | Takes `8` Bytes Memory Space
 
 ### 6. Difference between Public, Static and Void 
 
