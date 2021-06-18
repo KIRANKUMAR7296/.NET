@@ -19,7 +19,7 @@
 
 #### 2. Object Creation
 
-- Creates `HttpContext` ( Container for Objects `Request` and `Response` informations )
+- Creates `HttpContext` ( Container for `Request` and `Response` Objects )
 - `HttpRequest` ( Contains Information about the `Current` Request made by Client to the Server )
 - `HttpResponse` ( Contains Response that is sent by Server to the Client )
 
