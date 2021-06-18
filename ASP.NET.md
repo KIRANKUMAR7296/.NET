@@ -23,8 +23,8 @@
     <td>
       <ul>
         <li>Cookies ( Stores User Information, Session and Application )</li>
-        <li>Viewstate ( Stores any type of Data used for Sending and Receiving Information. )</li>
-        <li>Controlstate</li>
+        <li>Viewstate ( Stores any type of Data temporarily after a PostBack )</li>
+        <li>Controlstate</li> ( Enables the Property of Viewstate )
         <li>Query String ( Stores the value in URL, Visible to all Users. )</li>
         <li>Hidden Field ( Stores value that are not displayed on Browser )</li>
       </ul>
