@@ -7,7 +7,7 @@
 - When we reopen the Browser we enter the URL again.
 
 <table>
-  <tr><th colspan=2>State Management</th></tr>
+  <tr><th colspan=2>State Management Types</th></tr>
   <tr><th>Server Side</th><th>Client Side</th></tr>
   <tr>
     <td>
