@@ -23,6 +23,8 @@
 <h3 name='gc'>3. Garbage Collector</h3> 
 
 -  An Automatic Memory Manager ( `Allocate` and `Release` Memory for Objects )
+-  Allocation is made when we declare New Object.
+-  When there is no enough memory to Allocate an Object, Garbage Collector collects and dispose garbage memory to make memory available.
 
 <h3 name='box'>4. Boxing vs Unboxing</h3>
 
