@@ -6,7 +6,7 @@
 - Browsers are `Stateless` ( Once the Browser is closed it do not keep the State of `Websites` and `URLs` )
 - When we reopen the Browser we enter the URL again.
 
-> State Informations like Objects, Allocated Memory and Session ID.
+> State Informations like User Identity, Objects, Allocated Memory and Session ID.
 
 <table>
   <tr><th colspan=2>State Management Types</th></tr>
