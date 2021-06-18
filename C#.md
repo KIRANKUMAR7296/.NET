@@ -87,31 +87,31 @@ Int16 | Int32 | Int64
 `16` Bit Signed Integer | `32` Bit Signed Integer | `64` Bit Signed Integer
 Takes `2` Bytes Memory Space | Takes `4` Bytes Memory Space | Takes `8` Bytes Memory Space
 
-### 6. Difference between Public, Static and Void 
+### 7. Difference between Public, Static and Void 
 
 - `Public` : Public declared variables or methods are accessible anywhere in the application.
 - `Static` : Static declared variables or methods are accessible without creating any instance of the class.
 - `Void`   : The variables or methods doesn't return any value.
 
-### 7. ref parameters 
+### 8. ref parameters 
 
 - Argument passed as reference must be initialized before passing to method.
 
-### 8. out parameters
+### 9. out parameters
 
 - No need to be initialized before passing to method.
 
-### 9. use of 'using' statement ?
+### 10. use of 'using' statement ?
 
 - Obtain a resource and process it and automatically dispose after execution.
 
-### 10. Serialization vs Deserialization
+### 11. Serialization vs Deserialization
 
 Serialization | Deserialization
 :--- | :---
 Converting `Object` into `Byte Stream` | Creating an `Object` from a `Byte Stream`.
 
-### 11. Constants vs Read Only 
+### 12. Constants vs Read Only 
 
 Constant | Read Only
 :--- | :---
