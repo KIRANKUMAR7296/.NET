@@ -50,6 +50,7 @@ int i = (int)obj;  // Unboxing
 <table>
    <tr><th colspan=3>Data Types in C#</th></tr>
    <tr><th>Value Type</th><th>Reference Type</th><th>Pointer Type</th></tr>
+   <tr><th>Stores Data Value in Memory Space</th><th>Stores Address of Object</th><th>Stores Memory Address</th></tr>
    <tr>
       <td>
          <ul>
@@ -105,12 +106,6 @@ Converting `Object` into `Byte Stream` | Creating an `Object` from a `Byte Strea
 Constant | Read Only
 :--- | :---
 Variables are Declared and Initialized at `Compile` Time | `Read Only` is used only to assign value at `Run` Time
-
-### 12. Value type and Reference Type ?
-
-Value | Reference
-:--- | :---
-Stores `Data Value` in Memory Space | Stores `Address` of Object where the value is stored.
 
 ### 13. Custom Controls ?
 
