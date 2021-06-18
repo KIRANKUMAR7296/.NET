@@ -50,7 +50,7 @@ int i = (int)obj;  // Unboxing
 <table>
    <tr><th colspan=3>Data Types in C#</th></tr>
    <tr><th>Value Type</th><th>Reference Type</th><th>Pointer Type</th></tr>
-   <tr><th>Stores Data Value in Memory Space</th><th>Stores Address of Object</th><th>Stores Memory Address</th></tr>
+   <tr><th>Stores Data Value</th><th>Stores Address of Object</th><th>Stores Memory Address</th></tr>
    <tr>
       <td>
          <ul>
