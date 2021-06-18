@@ -4,6 +4,7 @@
   <tr>
     <td><a href='#page'>Page Life Cycle</a></td>
     <td><a href='#state'>State Management</a></td>
+    <td><a href='#valid'>Validation Controls</a></td>
   </tr>
 </table>
 
@@ -109,7 +110,7 @@
   </tr>
 </table>
 
-### Validation Controls
+<h3 name='valid'>Validation Controls</h3>
  
 Validation Control |	Description
 :--- | :---
