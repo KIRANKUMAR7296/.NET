@@ -30,6 +30,7 @@
 DataSet |  DataReader 
 :--- | :---
 Has `Read Write` Access to Data | Used to Retrieve `Read Only` Data from Database
+| DataReader is created by calling `Command.ExecuteReader`
 `Slow` Access | `Fast` Access
 Do not need Connection | Needs `Connection`
 
