@@ -128,6 +128,8 @@ Student s1 = new Student();
  
 > Child Class  | Derived Class | Sub Class
 
+<img src='Image/Inheritance.jpg'>
+
 ### 1. Single Inheritance 
 - Class `B` Inherit from Class `A` | New Class is Derived from Base Class
 - e.g. `Boy` Inherit `Father` Properties and Behaviours.
