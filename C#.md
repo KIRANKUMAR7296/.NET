@@ -53,16 +53,15 @@ int i = (int)obj;  // Unboxing
    <tr>
       <td>
          <ul>
-            <li>short</li>
-            <li>int</li>
-            <li>char</li>
-            <li>float</li>
-            <li>double</li>
+            <li>Integer (byte 8, short 16, int 32, long 64)</li>
+            <li>floating (float 32, double 64, decimal 128)</li>
+            <li>char ( "A" )</li>            
+            <li>bool ( true, false )</li>
          </ul>
       </td>
       <td>
          <ul>
-            <li>String</li>
+            <li>String ( "Hello" )</li>
             <li>Class</li>
             <li>Object</li>
             <li>Interface</li>
