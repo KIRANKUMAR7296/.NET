@@ -1,6 +1,44 @@
 # ASP.NET 
 
-### State Management
+<table>
+  <tr>
+    <td><a href='#app'>Application Life Cycle</a></td>
+    <td><a href='#page'>Page Life Cycle</a></td>
+    <td><a href='#state'>State Management</a></td>
+  </tr>
+</table>
+
+<h3 anme='app'>Application Life Cycle</h3>
+
+- When an `ASP.NET` Web Application is launched, Series of steps make a Life Cycle of the Application.
+
+#### 1. Application Start 
+
+- `User` makes a `Request` to the `Server`.
+- `Variables` are set to there `Default` Values.
+
+#### 2. Object Creation
+
+- Creates `HttpContext` ( Container for Objects `Request` and `Response` informations )
+- `HttpRequest` ( Contains Information about the `Current` Request made by Client to the Server )
+- `HttpResponse` ( Contains Response that is sent by Server to the Client )
+
+#### 3. HttpApplication Creation
+
+- `Object` is Created by Server for each Request.
+- e.g. User requests for Websites of `Flipkart` and `Amazon` to the Server.
+- `Server` creates two Web Application `Objects`, one for Flipkart and one for Amazon.
+
+#### 4. Dispose 
+- Manually `Release` the Resources.
+
+#### 5. Application End 
+- Web Application is `unloaded` from Memory.
+
+<h3 anme='page'>Page Life Cycle</h3>
+
+<h3 anme='state'>State Management</h3>
+
 - `Maintain` and `Store` the Information of any User till the end of the `User Session`.
 - Browser communicates with Server using `HTTP` or `HTTPs` Protocol.
 - Browsers are `Stateless` ( Once the Browser is closed it do not keep the State of `Websites` and `URLs` )
