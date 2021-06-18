@@ -55,13 +55,13 @@ int i = (int)obj;  // Unboxing
          <ul>
             <li>Integer (byte 8, short 16, int 32, long 64)</li>
             <li>floating (float 32, double 64, decimal 128)</li>
-            <li>char ( "A" )</li>            
-            <li>bool ( true, false )</li>
+            <li>char ("A")</li>            
+            <li>bool (true, false)</li>
          </ul>
       </td>
       <td>
          <ul>
-            <li>String ( "Hello" )</li>
+            <li>String ("Hello")</li>
             <li>Array</li>
             <li>Class</li>
             <li>Object</li>
