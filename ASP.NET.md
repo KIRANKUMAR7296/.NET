@@ -35,7 +35,7 @@
 #### 5. Application End 
 - Web Application is `unloaded` from Memory.
 
-<h3 anme='page'>B. Page Life Cycle</h3>
+<h3 name='page'>B. Page Life Cycle</h3>
 
 - When an ASP.NET Page is called it goes through Series of Life Cycle, before Server `Response` to User.
 
