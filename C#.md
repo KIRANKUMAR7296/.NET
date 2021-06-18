@@ -62,6 +62,7 @@ int i = (int)obj;  // Unboxing
       <td>
          <ul>
             <li>String ( "Hello" )</li>
+            <li>Array</li>
             <li>Class</li>
             <li>Object</li>
             <li>Interface</li>
@@ -69,7 +70,7 @@ int i = (int)obj;  // Unboxing
       </td>
        <td>
          <ul>
-            <li>Pointers</li>
+            <li>Pointers (Variable that holds Memory Address)</li>
          </ul>
       </td>
    </tr>
