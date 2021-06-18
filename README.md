@@ -1,10 +1,8 @@
 <p align=right><a href='https://github.com/KIRANKUMAR7296/SQL'>Navigate to SQL</a></p>
 
-# C#
+### C#
 
-### C# Basic Concepts and Object Oriented Programming Concepts
-
----
+`C#` and `OOP` Concepts.
 
 ### Can we use Multiple web.config file ? : `Yes`
 
