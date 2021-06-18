@@ -121,8 +121,8 @@ Variables are Declared and Initialized at `Compile` Time | `Read Only` is used o
 
 Array | Array List
 :--- | :---
-`Fixed` Size Data Structure | Not Fixed Size Data Structure
-Access by `Index` | Access by using `Method`
+Is a `Fixed` Size Data Structure | Is not a Fixed Size Data Structure
+Items are Accessed by `Index` | Items are Accessed by using `Method`
 
 ### 16. System.String vs System.Text.StringBuilder 
 
