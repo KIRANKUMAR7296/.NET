@@ -102,15 +102,25 @@ Student s1 = new Student();
 - e.g A Person at same time can have different Characteristics.
 ( Like a Man at same time is a Father, a Husband, an Employee and Different Behaviour at Different Situation )
 
+### Method Overriding
+- New Derived Class can `Inherit` and `Override` | Modify the Methods of its Base Class.
+
+### Method Overloading 
+- Creating Multiple Methods with `Same Name` but with different ( `Unique` ) Parameters.
+
+### Operator Overloading
+- Same Operator Behaves differently with Different Data Types according to Context.
+- ( + Operator ) performs `Arithmetic` Operations between Two `Numbers` but performs `Concatenation` between Two `Strings`.
+
+<h3 name='inh'>7. Inheritance</h3> 
+- The Process in which one class acquire the Property and Method of another Class.
+- e,g `Child` Inherits from `Mom` and `Dad`.
+
 ### Similar Words
 
 > Parent Class | Base Class    | Super Class
  
 > Child Class  | Derived Class | Sub Class
-
-<h3 name='inh'>7. Inheritance</h3> 
-- The Process in which one class acquire the Property and Method of another Class.
-- e,g `Child` Inherits from `Mom` and `Dad`.
 
 ### 1. Single Inheritance 
 - Class `B` Inherit from Class `A` | New Class is Derived from Base Class
@@ -123,16 +133,6 @@ Student s1 = new Student();
 ### 3. Multiple  
 - Class `A` Inherit from Class `B` and Class `C` | A Class can be Derived from more than One Base Class
 - e.g. Class Truck, Class Car, Class Bus Inherit from Class Vehicle.
-
-### Method Overriding
-- New Derived Class can `Inherit` and `Override` | Modify the Methods of its Base Class.
-
-### Method Overloading 
-- Creating Multiple Methods with `Same Name` but with different ( `Unique` ) Parameters.
-
-### Operator Overloading
-- Same Operator Behaves differently with Different Data Types according to Context.
-- ( + Operator ) performs `Arithmetic` Operations between Two `Numbers` but performs `Concatenation` between Two `Strings`.
 
 ### Programming Constructs
 - Common Building Blocks to Construct any Program.
