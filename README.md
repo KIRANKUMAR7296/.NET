@@ -4,12 +4,6 @@
 
 ### C# Basic Concepts and Object Oriented Programming Concepts
 
-[SQL](https://github.com/KIRANKUMAR7296/SQL) ( Structured Query Language )
-
-[Joins](https://github.com/KIRANKUMAR7296/SQL/blob/main/JOINS.md)
-
-[Difference between](https://github.com/KIRANKUMAR7296/SQL/blob/main/DIFFERENCE.md)
-
 ---
 
 ### Can we use Multiple web.config file ? : `Yes`
