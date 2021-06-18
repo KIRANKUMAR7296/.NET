@@ -4,9 +4,7 @@
    <tr>      
       <th align=left><a href='#ado'>ADO</a></th>
       <th align=left><a href='#set'>Data Set vs Data Reader</a></th>   
-      <th align=left><a href='#scalar'>ExecuteScalar</a></th>
-      <th align=left><a href='#reader'>ExecuteReader</a></th>
-      <th align=left><a href='#non'>ExecuteNonQuery</a></th>          
+      <th align=left><a href='#execute'>ExecuteScalar | ExecuteReader | ExecuteNonQuery</a></th>               
    </tr>
 </table>
   
@@ -33,18 +31,7 @@ Has `Read Write` Access to Data | Has `Read Only` Access to Data
 `Slow` Access | `Fast` Access
 Do not need Connection | Needs `Connection`
 
-<h3 name='scalar'>3. ExecuteScalar</h3> 
-
-- Used when Query Returns `Single` Value. ( First Row or First Column from the Database )
-
-<h3 name='reader'>4. ExecuteReader</h3> 
-
-- Used when Query Returns `Multiple` Value ( Set of Rows and Columns )
-
-<h3 name='non'>5. ExecuteNonQuery</h3>
-
-- Used when Query `doesn't` returns Data from Database. 
-- Only returns `Integer` specifying Number of Rows Inserted, Updated or Deleted.	
+<h3 name='execute'>3. ExecuteScalar | ExecuteReader | ExecuteNonQuery</h3>
 
 ExecuteScalar | ExecuteReader | ExecuteNonQuery
 :--- | :--- | :---
