@@ -95,7 +95,7 @@ Student s1 = new Student();
 
 <h3 name='enc'>5. Encapsulation</h3> 
 
-- Bind together the `Data` and `Function` ( Class = Properties + Method )
+- Bind together the `Data`, `Attributes` and `Methods` ( Class = Data + Attribute + Method )
 - `Class` : Car
 - `Properties` : ( Physical Attributes of Car | Color, Type, Size, Name, Model )
 - `Method` : ( Action Performed by the Car | Use of Car | Drive | Stop )
