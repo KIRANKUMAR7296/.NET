@@ -48,9 +48,9 @@ int i = (int)obj;  // Unboxing
 
 Type | Data Type
 :--- | :---
-`Value` | `short`, `int`, `char`, `float`, `double` 
-`Reference` | `String`, `Class`, `Object` and `Interface`
-`Pointer` | `Pointers`
+`Value` Type | `short`, `int`, `char`, `float`, `double` 
+`Reference` Type | `String`, `Class`, `Object` and `Interface`
+`Pointer` Type | `Pointers`
 
 ### 6. Difference between Public, Static and Void 
 
