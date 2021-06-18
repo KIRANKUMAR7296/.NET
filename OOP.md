@@ -103,16 +103,17 @@ Student s1 = new Student();
 <h3 name='poly'>6. Polymorphism (Many Forms)</h3>
 
 - Having more than one form.
+- Allow to Call Methods of Base Class in Derived Class.
 - e.g A Person at same time can have different Characteristics.
 ( Like a Man at same time is a Father, a Husband, an Employee and Different Behaviour at Different Situation )
 
-### Method Overriding
-- New Derived Class can `Inherit` and `Override` | Modify the Methods of its Base Class.
+#### a. Method Overriding
+- New Derived Class can `Inherit` and `Override` | Modify the Attributes and Methods of its Base Class.
 
-### Method Overloading 
+#### b. Method Overloading 
 - Creating Multiple Methods with `Same Name` but with different ( `Unique` ) Parameters.
 
-### Operator Overloading
+#### c. Operator Overloading
 - Same Operator Behaves differently with Different Data Types according to Context.
 - ( + Operator ) performs `Arithmetic` Operations between Two `Numbers` but performs `Concatenation` between Two `Strings`.
 
