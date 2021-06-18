@@ -15,6 +15,7 @@
       <th align=left><a href='#service'>Web Service</a></th>
       <th align=left><a href='#api'>Web API</a></th>
       <th align=left><a href='#iis'>IIS</a></th>
+      <th align=left><a href='#grid'>Grid View Binding</a></th>
    </tr>
 </table>
 
@@ -119,6 +120,13 @@ Takes `2` Bytes Memory Space | Takes `4` Bytes Memory Space | Takes `8` Bytes Me
 - Inbuilt Authentication and Authorization
 - `Authentication` : Verify whether User is a `Valid` User ( Login Form : User Name and Password )
 - `Authorization` : Check if you have a `Permission` to Access ( Secure Access )
+
+<h3 name='grid'>Grid View Bind</h3>
+
+- Grid View is used to Display `Tabular` Data ( Rows and Column ) on Web Page which is stored in a Database.
+- To `Display` the Data we need to `Bind` the Grid View to the Table in the Database.
+- We Select the Columns we want to Show on Grid View and use `ExecuteReader` to Read Data from Table.
+- Binding requires `Open` Connection and Connection is `Closed` after Binding.
 
 ### 7. Difference between Public, Static and Void 
 
