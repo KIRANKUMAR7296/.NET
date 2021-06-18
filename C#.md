@@ -61,7 +61,7 @@ int i = (int)obj;  // Unboxing
       </td>
       <td>
          <ul>
-            <li>String ("Hello")</li>
+            <li>String</li>
             <li>Array</li>
             <li>Class</li>
             <li>Object</li>
