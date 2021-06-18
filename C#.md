@@ -82,6 +82,8 @@ int i = (int)obj;  // Unboxing
 
 <h3 name='int'>6. Int16 vs Int32 vs Int64</h3>
 
+- Stores `Positive` and `Negative` Integers. 
+
 Int16 | Int32 | Int64
 :--- | :--- | :---
 `16` Bit Signed Integer | `32` Bit Signed Integer | `64` Bit Signed Integer
