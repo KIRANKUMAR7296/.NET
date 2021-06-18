@@ -45,3 +45,7 @@ Do not need Connection | Needs `Connection`
 
 - Used when Query `doesn't` returns Data from Database. 
 - Only returns `Integer` specifying Number of Rows Inserted, Updated or Deleted.	
+
+ExecuteScalar | ExecuteReader | ExecuteNonQuery
+:--- | :--- | :---
+Is used when Query Returns `Single` Value | Is used when Query Returns `Multiple` Value | Only returns `Integer` specifying Number of Rows Inserted, Updated or Deleted.
