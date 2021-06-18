@@ -14,7 +14,8 @@
 
 <h3 name='class'>1. Class</h3>
 
-- Blueprint or Template that Describes Attributes ( Physical Properties | Data Members ) and Method( Behavior ) of a Object.
+- Blueprint or Template that Describes 👇🏻
+- Attributes ( Physical Properties | Data Members ) and Method( Behavior | Action ) of a Object.
 
 ```C#
 public class Student  
