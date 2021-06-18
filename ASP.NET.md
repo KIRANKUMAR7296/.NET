@@ -126,5 +126,32 @@ ValidationSummary |	Displays a report of all validation errors occurred in a Web
 <h3 name='client'>Client Side and Server Side Controls</h3>
 
 - Controls are small Building Blocks of Graphical User Interface `GUI`. 
-- Client Side Con
 
+#### Client Side Controls 
+
+1. Button Control : Button (Text Button), Link Button (Hyperlinks), Image Button (Button with Icon)
+2. Textbox Control : Accept Input from User.
+3. Labels : Display Texts (It can be changed based on execution condition)
+4. Check Box : Displays a Single Option that a User can Check or Uncheck.
+5. Radio Button : Present a Group of Options from which User can select One.
+6. Radio Button List and Check Box List : List Item Collections.
+7. Bulleted List : Unordered Collection.
+8. Numbered List : Ordered Collection. 
+9. Hyperlink Control : Similar to HTML <a> Tag.
+10. Image Control : Display Image, Similar to HTML <img> Tag. 
+
+#### Server Side Controls 
+
+1. `Validation` Controls : Validate User Input
+2. `Data Source` Controls : Data bindings to different Data Sources.
+3. `Data View` Controls : Bind to Data from Data Source for Displaying.
+4. `Personalized` Controls : Personalization of User Information on the Page.
+5. `Login` and `Security` Controls : Provides Authentication (UserName and Pwd) and Authorization (Check for Permission)
+6. `Master` Pages : Provide Consistent Layout and Interface throughout the Webpage.
+7. `Navigation` Controls : Menu, NavBar, Tabs (Home, Contact, Career, About Us)
+8. `Rich` Controls : Special Features (FileUpload, Calender Control, Range Selector)
+
+Controls provides various features for Error Free Coding.
+- Dragging and Droppig of Controls in Design View.
+- Intellisense features to display methods and functions + Autocomplete.
+- Property Windows to set the Property Values directly.
