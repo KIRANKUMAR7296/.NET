@@ -129,16 +129,16 @@ ValidationSummary |	Displays a report of all validation errors occurred in a Web
 
 #### Client Side Controls 
 
-1. Button Control : Button (Text Button), Link Button (Hyperlinks), Image Button (Button with Icon)
-2. Textbox Control : Accept Input from User.
-3. Labels : Display Texts (It can be changed based on execution condition)
-4. Check Box : Displays a Single Option that a User can Check or Uncheck.
-5. Radio Button : Present a Group of Options from which User can select One.
-6. Radio Button List and Check Box List : List Item Collections.
-7. Bulleted List : Unordered Collection.
-8. Numbered List : Ordered Collection. 
-9. Hyperlink Control : Similar to HTML <a> Tag.
-10. Image Control : Display Image, Similar to HTML <img> Tag. 
+1. `Button` Control : Button (Text Button), Link Button (Hyperlinks), Image Button (Button with Icon)
+2. `Textbox` Control : Accept Input from User.
+3. `Labels` : Display Texts (It can be changed based on execution condition)
+4. `Check Box : Displays a Single Option that a User can Check or Uncheck.
+5. `Radio` Button : Present a Group of Options from which User can select One.
+6. `Radio` Button List and `Check` Box List : List Item Collections.
+7. `Bulleted` List : Unordered Collection. 
+8. `Numbered` List : Ordered Collection. 
+9. `Hyperlink` Control : Similar to HTML \<a> Tag.
+10. `Image` Control : Display Image, Similar to HTML \<img> Tag. 
 
 #### Server Side Controls 
 
