@@ -145,9 +145,9 @@ str.charAt(8)  // Character at Index Location 8
 - An alternative to `for` loop
 
 ```c#
-foreach (element in iterable-item)
+foreach (item in iterables)
 {
-    // body of foreach loop
+    body
 }
 ```
 
