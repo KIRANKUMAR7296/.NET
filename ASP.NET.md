@@ -77,7 +77,7 @@
 
 - Removing all unwanted `Objects` from Memory.
 
-<h3 anme='state'>C. State Management</h3>
+<h3 name='state'>C. State Management</h3>
 
 - `Maintain` and `Store` the Information of any User till the end of the `User Session`.
 - Browser communicates with Server using `HTTP` or `HTTPs` Protocol.
