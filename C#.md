@@ -128,7 +128,7 @@ Items are Accessed by `Index` | Items are Accessed by using `Method`
 
 `System.String` :  | `System.Text.StringBuilder`
 :--- | :---
-Immutable (Cannot Change the value) | Mutable (Can change the Value)
+Strings are `Immutable` (Cannot Change the value) | Strings are `Mutable` (Can change the Value)
 If we `modify` value of String then New memory is allocated and old memory is released. | Value can be modified at same memory location.
 
 ### 17. System.Array.CopyTo() vs System.Array.Clone()
