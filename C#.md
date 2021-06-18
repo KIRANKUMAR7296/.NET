@@ -109,6 +109,7 @@ Takes `2` Bytes Memory Space | Takes `4` Bytes Memory Space | Takes `8` Bytes Me
 - Application Programming Interface.
 - A Framework for building `HTTP` Services that can be accessed by Client anywhere.
 - API can be accessed using Browser on `Desktop`, `Laptop`, `Tablet` and `Mobile`.
+- Supports `JSON` and `XML` format.
 
 ### 7. Difference between Public, Static and Void 
 
