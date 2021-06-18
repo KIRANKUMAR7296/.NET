@@ -31,8 +31,8 @@ DataSet |  DataReader
 :--- | :---
 Has `Read Write` Access to Data | Used to Retrieve `Read Only` Data from Database
 `SqlAdapter` fills Data in DataSet | DataReader is created by calling `Command.ExecuteReader`
-`Slow` Access | `Fast` Access
-No need to `Open` or `Close` Connection | Needs to `Open` and `Close` Connection Manually.
+Speed to Access Data is `Slow` | Speed to Access Data is `Fast` due to `Read Only`
+No need to `Open` or `Close` Connection | Needs to `Open` and `Close` Connection Manually
 
 <h3 name='execute'>3. ExecuteScalar | ExecuteReader | ExecuteNonQuery</h3>
 
