@@ -19,7 +19,7 @@
 - Initialize `Data Members` of New Object.
 - `Types` of Constructor 👇🏻
 - `Default` Constructor : A Constructor with no `Arguments`.
-- `Parameterized` Constructor : A Constructor which has `Parameters`.
+- `Parameterized` Constructor : A Constructor with `Parameters`.
 
 <h3 name='gc'>3. Garbage Collector</h3> 
 
