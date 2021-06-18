@@ -76,7 +76,7 @@ Drawing Circle...
 
 <h3 name='obj'>3. Object</h3> 
 
-- Instance of Class which has Property and Method
+- `Instance` of Class which has `Property` and `Method`.
 
 ```C#
 Student s1 = new Student();
