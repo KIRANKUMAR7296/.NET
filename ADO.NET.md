@@ -48,4 +48,5 @@ Do not need Connection | Needs `Connection`
 
 ExecuteScalar | ExecuteReader | ExecuteNonQuery
 :--- | :--- | :---
-Is used when Query Returns `Single` Value | Is used when Query Returns `Multiple` Value | Is used when Query returns `Integer` specifying Number of Rows Inserted, Updated or Deleted.
+Is used when Query Returns `Single` Value | Query Returns `Multiple` Value | Query do not returns Data
+e.g. First Row or First Column from the Database | Set of Rows and Columns | Only Returns Number of Rows Inserted, Updated or Deleted.
