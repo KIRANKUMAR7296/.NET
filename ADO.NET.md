@@ -17,7 +17,7 @@
 - `Data Provider` : Connection, Command and DataAdapter ( `Select`, `Insert`, `Delete` and `Update` Command )
 - `DataSet` : DataRelationCollection and DataTableCollection ( `DataTable`, Rows, Columns and Constraints )
 
-![ADO]('Image/ADO.NET Object.jpg')
+<img src='Image/ADO.NET Object.jpg'>
 
 - `Connection`  : Connect `Data Source` for performing Operations.
 - `Command` : `Query` or Stored Procedure to and from Database for `Extracting`, `Transforming` or `Loading` data.
