@@ -2,9 +2,8 @@
 
 <table>
   <tr>
-    <td><a href='#app'>A. Application Life Cycle</a></td>
-    <td><a href='#page'>B. Page Life Cycle</a></td>
-    <td><a href='#state'>C. State Management</a></td>
+    <td><a href='#page'>Page Life Cycle</a></td>
+    <td><a href='#state'>State Management</a></td>
   </tr>
 </table>
 
