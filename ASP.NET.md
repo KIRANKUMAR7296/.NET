@@ -9,6 +9,7 @@
 <table>
   <tr><th colspan=2>State Management Types</th></tr>
   <tr><th>Server Side</th><th>Client Side</th></tr>
+  <tr><th>State information is stored in User Memory</th><th>State information is stored on Client Side</th></tr>
   <tr>
     <td>
       <ul>
