@@ -20,9 +20,9 @@
 
 ```c#
 <appSettings configSource="app.config">
- </appSettings>
- <connectionStrings configSource="database.config">
- </connectionStrings>
+</appSettings>
+<connectionStrings configSource="database.config">
+</connectionStrings>
 ```
 
 
