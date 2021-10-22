@@ -1,9 +1,5 @@
 <p align=right><a href='https://github.com/KIRANKUMAR7296/SQL'>Navigate to SQL</a></p>
 
-# C#
-
-`C#` and `OOP` Concepts.
-
 ### Can we use Multiple web.config file ? : `Yes`
 
 - We have one main configuration file : `Web.Config`
