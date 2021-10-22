@@ -6,10 +6,10 @@
 
 ### Can we use Multiple web.config file ? : `Yes`
 
-- We have one Main Configuration File : `Web.Config`
-- Then we have two more Configuration Files : `App.Config` and `Database.Config`
-- `App.Config` :  Here we Define all the Application Level Settings ( Protocol, Request, Response )
-- `Database.Config` : Here we Define all the Database Level Settings ( Data Source, Password )
+- We have one main configuration file : `Web.Config`
+- Then we have two more configuration files : `App.Config` and `Database.Config`
+- `App.Config` :  Here we define all the application level settings ( Protocol, Request, Response )
+- `Database.Config` : Here we define all the database level settings ( Data Source, Password )
 
 ```c#
 <appSettings configSource="app.config">
