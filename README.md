@@ -2,7 +2,7 @@
 
 ### What is MVC ?
 
-- `MVC` : Model ( `Data` ) + View ( `UI` ) + Controller ( `Brain` )
+- `MVC` : Model `Data` + View `UI` + Controller `Brain`
 - Core concept is to separate the `business logic`, `user interface` and `data model` from each other.
 - `Model` : A model extracts data from a database like `cloud`, `local storage`, `API's`
 - `View` : View represents the `UI` of app, it shows the data model and takes inputs from the users.
