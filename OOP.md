@@ -107,8 +107,7 @@ Student s1 = new Student();
 
 - Having more than one form.
 - Allow to call methods of base class in derived class.
-- e.g A Person at same time can have different characteristics.
-( Like a Man at same time is a father, a husband, an employee and behaves different according to his role )
+- e.g A person at same time is a father, a husband, an employee and behaves accordingly.
 
 #### a. Method Overriding
 - New Derived Class can `Inherit` and `Override` | Modify the Attributes and Methods of its Base Class.
