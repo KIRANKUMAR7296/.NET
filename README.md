@@ -2,9 +2,13 @@
 
 ### What is MVC ?
 
-- `MVC` : Model View Controller.
+- `MVC` : Model (Data) View (UI) Controller (Brain)
 - Core concept is to separate the `business logic`, `user interface` and `data model` from each other.
-- `Model` : A model extracts data from a database like `cloud`, `local storage`, `API's` (`business logics`)
+- `Model` : A model extracts data from a database like `cloud`, `local storage`, `API's`
+- `View` : View represents the `UI` of app, it shows the data model and takes inputs from the users.
+- `Controller` : Consist of `business logics`, control and decide what will be displayed to user.
+- `MVC` helps to make work easy, structured and organized.
+- So if something is changed in one part of the project, it will not affect other parts of the project. 
 
 ### Can we use Multiple web.config file ? : `Yes`
 
