@@ -14,8 +14,8 @@
 
 <h3 name='class'>1. Class</h3>
 
-- `Blueprint` or `Template` that Describes 👇🏻
-- `Attributes` ( Physical Properties | Data Members ) and `Method` ( Behavior | Action ) of a Object.
+- `Blueprint` or `template` that describes 👇🏻
+- `Attributes` ( Physical properties | Data members ) and `Method` ( Behavior | Action ) of an object.
 
 ```C#
 public class Student  
@@ -27,9 +27,9 @@ public class Student
 
 <h3 name='int'>2. Interface</h3>
 
-- `Blueprint` of a `Class`.
-- Methods declared inside the Interface are `Abstract` Methods.
-- Used to Achieve `Multiple` Inheritance.
+- `Blueprint` of a `class`.
+- Methods declared inside the interface are `abstract` methods.
+- Used to achieve `multiple` inheritance.
 
 ```C#
 using System;  
@@ -76,21 +76,21 @@ Drawing Circle...
 
 <h3 name='obj'>3. Object</h3> 
 
-- `Instance` of Class which has `Property` and `Method`.
+- `Instance` of class which has `property` and `method`.
 
 ```C#
 Student s1 = new Student();
 ```
 
 - e.g. 
-- `Person` is a `Class` 
-- `Dia` is an `Instance` of Class `Person`
-- `Property` : Dia has some `Attributes` ( Height, Weight, Color, Gender )    
-- `Method` : `Behavior` and `Actions` of Dia ( Talk, Run, Play, Fight, Sing, Cry )
+- `Person` is a `class` 
+- `Dia` is an `instance` of class `person`
+- `Property` : Dia has some `attributes` ( Height, Weight, Color, Gender )    
+- `Method` : `Behavior` and `actions` of Dia ( Talk, Run, Play, Fight, Sing, Cry )
 
 <h3 name='abs'>4. Abstraction</h3>
 
-- `Show` only Important Information and `Hide` Unnecessary Details from Users.
+- `Show` only important information and `hide` unecessary Details from Users.
 - Help to Reduce Program `Complexity`.
 
 <h3 name='enc'>5. Encapsulation</h3> 
