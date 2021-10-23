@@ -1,5 +1,11 @@
 <p align=right><a href='https://github.com/KIRANKUMAR7296/SQL'>Navigate to SQL</a></p>
 
+### What is MVC ?
+
+- `MVC` : Model View Controller.
+- Core concept is to separate the `business logic`, `user interface` and `data model` from each other.
+- `Model` : A model extracts data from a database like `cloud`, `local storage`, `API's` (`business logics`)
+
 ### Can we use Multiple web.config file ? : `Yes`
 
 - We have one main configuration file : `Web.Config`
