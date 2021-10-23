@@ -90,12 +90,15 @@ Student s1 = new Student();
 
 <h3 name='abs'>4. Abstraction</h3>
 
-- `Show` only important information and `hide` unecessary Details from Users.
-- Help to Reduce Program `Complexity`.
+- `Show` only important information and `hide` unnecessary details from users.
+- e.g. Mobile can do many things like make a call, take pictures, play games, watch movies, etc.
+- It doesn't show the inside process of how its doing the things (Implementation parts are hidden)
 
 <h3 name='enc'>5. Encapsulation</h3> 
 
-- Bind together the `Data`, `Attributes` and `Methods` ( Class = Data + Attribute + Method )
+- Bind together the `data`, `attributes` and `methods` ( Class = Data + Attribute + Method )
+- e.g. A company has several departments Production, HR, Accounts, Marketing.
+- All these departments makes up a company, and each department has it's own purpose and actions.
 - `Class` : Car
 - `Properties` : ( Physical Attributes of Car | Color, Type, Size, Name, Model )
 - `Method` : ( Action Performed by the Car | Use of Car | Drive | Stop )
@@ -103,9 +106,9 @@ Student s1 = new Student();
 <h3 name='poly'>6. Polymorphism (Many Forms)</h3>
 
 - Having more than one form.
-- Allow to Call Methods of Base Class in Derived Class.
-- e.g A Person at same time can have different Characteristics.
-( Like a Man at same time is a Father, a Husband, an Employee and Different Behaviour at Different Situation )
+- Allow to call methods of base class in derived class.
+- e.g A Person at same time can have different characteristics.
+( Like a Man at same time is a father, a husband, an employee and behaves different according to his role )
 
 #### a. Method Overriding
 - New Derived Class can `Inherit` and `Override` | Modify the Attributes and Methods of its Base Class.
@@ -119,35 +122,35 @@ Student s1 = new Student();
 
 <h3 name='inh'>7. Inheritance</h3> 
 
-- The Process in which one class acquire the Property and Method of another Class.
-- e,g `Child` Inherits from `Mom` and `Dad`.
+- The process in which one class acquire the property and method of another class.
+- e.g `Child` inherits properties and behaviours from `mom` and `dad`.
+- e.g Dogs can have same color, same name, same size and same breed, but they are not same.
 
 ### Similar Words
 
-> Parent Class | Base Class    | Super Class
- 
-> Child Class  | Derived Class | Sub Class
+- Parent Class | Base Class | Super Class
+- Child Class | Derived Class | Sub Class
 
 <img src='Image/Inheritance.jpg'>
 
 #### 1. Single Inheritance 
-- Class `B` Inherit from Class `A` | New Class is Derived from Base Class
-- e.g. `Boy` Inherit `Father` Properties and Behaviours.
+- Class `B` inherit from class `A` | New class is derived from base class.
+- e.g. `Boy` inherit `father` properties and behaviours.
 
 #### 2. Multiple Inheritance
-- Class `A` Inherit from Class `B` and Class `C` | A Class can be Derived from more than One Base Class
-- e.g. Class Truck, Class Car, Class Bus Inherit from Class Vehicle.
+- Class `A` inherit from class `B` and class `C` | A class can be derived from more than one base class.
+- e.g. Class truck, class car, class bus inherit from class vehicle.
 
 #### 3. Multilevel Inheritance
-- Class `C` Inherit from Class `B` and Class `B` Inherit from Class `A`
-- e.g. `Boy` Inherit from `Father` and `Father` Inherit from `Grand Father`.
+- Class `C` inherit from class `B` and class `B` inherit from class `A`
+- e.g. `Boy` inherit from `father` and `father` inherit from `grand father`.
 
 ### Programming Constructs
 
-- Common Building Blocks to Construct any Program.
+- Common building blocks to construct any program.
 
 <img src='Image/Programming Construct.png'>
 
-1. `Sequence` : Step by Step Process ( Follow only One Direction )
-2. `Selection` : Steps taken based on Conditions ( If Else or True False Condition )
-3. `Iterations` : Repeated Process which can Change the Step based on Certain Conditions.
+1. `Sequence` : Step by step process ( Follow only one direction : Top to bottom)
+2. `Selection` : Steps taken based on conditions ( If Else or True False Condition )
+3. `Iterations` : Repeated process which can change the step based on certain conditions.
