@@ -29,7 +29,7 @@
 
 ### `ASP.NET Full Stack Developer`
 
-`Front End` : `HTML`, `CSS`, `JavaScript`, `Bootstrap` (CSS library) and `jQuery` (JavaScript library)
+`Front End` : `HTML`, `CSS`, `Bootstrap` (CSS library), `JavaScript` and `jQuery` (JavaScript library)
 
 `Back End` :  `C#` programming language
 
