@@ -27,4 +27,14 @@
 </connectionStrings>
 ```
 
+ASP.NET Full Stack Developer
+
+`Front End` : `HTML`, `CSS`, `JavaScript`, `Bootstrap` (CSS library) and `jQuery` (JavaScript library)
+
+`Back End` :  `C#` programming language
+
+`Framework` : `ASP.NET`
+
+`Database` :  `SQL`
+
 
