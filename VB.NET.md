@@ -18,3 +18,13 @@
 
 - Method is basically a `behaviour` | `action` of an object.
 - `Functions` defined inside a `Class` is called `Methods`
+
+### `Instance Attribute`
+
+- Each object has its `unique` set of instance attribute.
+- An object is created by `assigning` values to the attributes.
+
+### `Identifiers`
+
+- An `identifier` is a name used to identify a class, function, variable or any other user defined thing.
+- It should not be a `reserved keyword`
