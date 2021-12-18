@@ -8,6 +8,14 @@
 
 - `Blueprint` that describes `Attributes` and `Behaviours` of a `Class`
 
+```vb.net
+Class Box
+      Public length As Double   
+      Public breadth As Double  
+      Public height As Double   
+End Class
+```
+
 ### `Object`
 
 - `Instance` of a `Class`
@@ -24,7 +32,7 @@
 - Each object has its `unique` set of instance attribute.
 - An object is created by `assigning` values to the attributes.
 
-```csharp
+```vb.net
 s1 = Student(name="Kiran", age=25)
 s2 = Student(name="Kumar", age=26)
 
