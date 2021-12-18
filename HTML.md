@@ -198,3 +198,8 @@ Inline | Block
 :--- | :---
 Just consumes necessary space | Starts on new line and consume full width of page
 `<span>`, `<a>`, `<strong>`, `<img>`, `<button>`, `<em>`, `<select>`, `<abbr>`, `<label>`, `<sub>`, `<cite>`, `<abbr>`, `<script>`, `<label>`, `<i>`, `<input>`, `<output>`, `<q>`, etc. | `<div>`, `<p>`, `<header>`, `<footer>`, `<h1>...<h6>`, `<form>`, `<table>`, `<canvas>`, `<video>`, `<blockquote>`, `<pre>`, `<ul>`, `<ol>`, `<figcaption>`, `<figure>`, `<hr>`, `<article>`, `<section>`, etc.
+
+### What is the difference between `<figure>` tag and `<img>` tag ?
+- `<figure>` tag specifies the self-contained content, like `diagrams`, `images`, `code snippets`, etc. 
+- `<figure>` tag is used to semantically `organize` the contents of an image like `image`, `caption`, etc.
+- `<img>` tag is used to embed the picture in the web page.
