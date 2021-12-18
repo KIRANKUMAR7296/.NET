@@ -73,17 +73,27 @@ non breaking space e.g 10 PM | `&nbsp;`
 - `<aside>` : Sidebar content of page.
 
 ### HTML `Formatting tags`
-- <b/> - `bold` text
-- <i/> - `italic` text
-- <em> - `italic` text with added semantics importance 
-- <big> - increases the font size of the text by one unit
-- <small> - decreases the font size of the text by one unit
-- <sub> - `subscript` text
-- <sup> - `superscript` text
-- <del> - `strikeout` text
-- <strong> - `bold` important text
-- <mark> - `highlight` text
+- `<b>` - `bold` text
+- `<i/>` - `italic` text
+- `<em>` - `italic` text with added semantics importance 
+- `<big>` - increases the font size of the text by one unit
+- `<small>` - decreases the font size of the text by one unit
+- `<sub>` - `subscript` text
+- `<sup>` - `superscript` text
+- `<del>` - `strikeout` text
+- `<strong>` - `bold` important text
+- `<mark>` - `highlight` text
 	
 ### `<head>` and `<body>` tag in HTML
 	
-<ins> - displays as added text
+- `<head>` tag provides information `metadata` about web page
+- `<head>` is defined at top of HTML page.
+- `<body>` tag is defined below `<head>` tag.
+- `<body>` tag defines the body of the HTML document.
+- All the contents to be displayed on web page like image, text, video using `<p>`, `<img>`, `<audio>`, `<video>`, etc
+
+### How to display a web page inside a web page ?
+
+```html
+<iframe src=”url of the web page to embed” />
+```			
