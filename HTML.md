@@ -143,5 +143,11 @@ Target Attribute Value | Behaviour
 
 - `External` : Use `<link>` tag inside `<head>` tag to reference the CSS file
 ```html
-<link rel="stylesheet" href="CSS/Style.css">	
+<html>
+	<head>
+		<link rel="stylesheet" href="CSS/Style.css">	
+	</head>
+	
+	<body></body>
+</html>
 ```
