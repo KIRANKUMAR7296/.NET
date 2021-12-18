@@ -23,7 +23,7 @@
 
 ### `HTML Element` : `Start Tag` + `Content` + `End Tag`
 
-### `Tags` : Enclosed within angle braces.
+### `Tags` : Primary component of the HTML enclosed within angle braces `<>`
 
 ### `Attribute` : Define the characteristics of an HTML Element (Case Sensitive)
 
@@ -37,3 +37,5 @@ left : Value of an attribute.
 content : Text to be displayed on website.	
 </p> : Paragraph End Tag.	
 ```
+
+### `Void Elements` : HTML Elements which do not have closing tags e.g. `<img>`, `<br>`, `<hr>`, etc.
