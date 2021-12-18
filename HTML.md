@@ -150,3 +150,26 @@ Target Attribute Value | Behaviour
 	<body></body>
 </html>
 ```
+
+### Difference between link tag `<link>` and anchor tag `<a>`
+- `<link>` : Define a link or reference between current web page and external resource (Not clickable)
+- `<a>` : Create a hyperlink to another page (Clickable links)
+
+### How to include `JavaScript` code in HTML?
+- `<script>` : Used to run the JavaScript code and make web page more dynamic.
+```html
+<!DOCTYPE html>
+<html>
+	<head></head>
+	
+   	<body>   
+   	<script>
+		document.getElementById("demo").innerHTML = "Script Tag"
+   	</script>
+   	</body>
+</html>
+
+###  When to use scripts in the `head` and when to use scripts in the `body` ?
+- If script contain some `event trigger function` or `jquery library` then use in head section.
+- If the script only write and display content on web page then place in body section at bottom.
+```
