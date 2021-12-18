@@ -92,8 +92,54 @@ non breaking space e.g 10 PM | `&nbsp;`
 - `<body>` tag defines the body of the HTML document.
 - All the contents to be displayed on web page like image, text, video using `<p>`, `<img>`, `<audio>`, `<video>`, etc
 
-### How to display a web page inside a web page ?
+### How to display a web page inside a web page (`Embed`)?
 
 ```html
 <iframe src=”url of the web page to embed” />
+```
+
+### What is `Cell Padding` and `Cell Spacing` ?
+- `Cell Padding` : Space between `content` and `border` of the cell.
+- `Cell Spacing` : The space or gap between two consecutive cells.
+
+### `rowspan` : Club two or more rows into one single row.
+
+### `colspan` : Club two or more columns into one single column. 	
+
+### Difference between `display:none` and `visibility:hidden` attributes 
+- `display:none` : Element will be `hidden` and won't take up any extra space on web page.
+- `visibility: hidden` : Element will be `hidden` from the web page but still takes up space.
+
+### How to specify `link` in HTML and explain `target` attribute ?
+- HTML provide `hyperlink` : `<a>` tag with `href` attribute to specify the link.
+- `target` attribute is used to specify the behaviour of click.
+
+Target Attribute Value | Behaviour
+:--- | :---
+`_self` | Default value, opens page in same window.
+`_blank` | Open the page into new tab
+`_parent` | Open the page in parent frame
+`_top` | Open page in full body window 
+
+### How many ways to specify `CSS` Styles ?
+- `Inline` : Use `style` attribute inside HTML elements
+```html
+<p style='font-family:SF Mono'>
+</html>	
+```
+- `Internal` : Use `<style>` tag inside `<head>` tag. Bind elements using `id` or `class` attributes.
+```html
+<html>
+	<head>
+		<style>
+			@font-face {
+			font-family: 'Moon';
+			src: url(../Font/MoonBold.ttf);
+        		}
+		</style>
+	</head>
+	
+	<body>
+	</body>
+</html>	
 ```			
