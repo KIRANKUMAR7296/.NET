@@ -53,3 +53,11 @@ Character | Entity Name
 `>` | `&gt;`
 `&` | `&amp;`
 non breaking space e.g 10 PM | `&nbsp;`
+
+### What is the `class attribute` in HTML?
+- Class attribute is used to specify class name for an HTML Element.
+- Multiple elements in HTML can have same class value.
+
+```html>
+<p class = "row"></p>
+```
