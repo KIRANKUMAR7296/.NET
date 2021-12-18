@@ -125,9 +125,9 @@ Target Attribute Value | Behaviour
 - `Inline` : Use `style` attribute inside HTML elements
 ```html
 <p style='font-family:SF Mono'>
-</html>	
 ```
 - `Internal` : Use `<style>` tag inside `<head>` tag. Bind elements using `id` or `class` attributes.
+
 ```html
 <html>
 	<head>
@@ -140,3 +140,8 @@ Target Attribute Value | Behaviour
 	</body>
 </html>	
 ```			
+
+- `External` : Use `<link>` tag inside `<head>` tag to reference the CSS file
+```html
+<link rel="stylesheet" href="CSS/Style.css">	
+```
