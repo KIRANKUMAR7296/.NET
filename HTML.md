@@ -43,4 +43,13 @@ content : Text to be displayed on website.
 ### What are HTML `Void Elements` ?  
 - HTML Elements which do not have closing tags e.g. `<img>`, `<br>`, `<hr>`, etc.
 
-### `HTML Entities` : Reserved Characters 
+### What are `HTML Entities` ?  
+- Reserved Characters like `<`, `>`, `\`, etc
+- To use this characters on web pages we need to use HMTL Entities.
+
+Character | Entity Name
+:--- | :---
+`<` | `&lt;`
+`>` | `&gt;`
+`&` | `&amp;`
+non breaking space e.g 10 PM | <p>10&nbsp;PM</p>
