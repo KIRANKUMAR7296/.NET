@@ -24,6 +24,14 @@
 - Each object has its `unique` set of instance attribute.
 - An object is created by `assigning` values to the attributes.
 
+```
+s1 = Student(name="Kiran", age=25)
+s2 = Student(name="Kumar", age=26)
+
+Here 👆🏻
+name and age are instant attributes and have unique value for each instance s1 and s2
+```
+
 ### `Identifiers`
 
 - An `identifier` is a name used to identify a class, function, variable or any other user defined thing.
