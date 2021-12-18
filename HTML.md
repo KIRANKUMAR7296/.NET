@@ -28,5 +28,11 @@
 ### `Attribute` : Define the characteristics of an HTML Element (Case Sensitive)
 
 ```html
-<Start Tag attribute = "value">Content</End Tag>
+<p align = "left">This is left aligned</p> 
+
+Here 👆🏻 
+<p> : Paragraph Tag
+align : Attribute that define the characteristic for content 
+left : Value of an attribute 	
+</p> : End Tag	
 ```
