@@ -174,3 +174,16 @@ Target Attribute Value | Behaviour
 - If script contain some `event triggers` or `jquery libraries` then use in `<head>` 
 - If the script only `display` contents or render something on wen page then place in `<body>` at bottom.
 
+### What are `forms` ?
+- `<form>` tag is used to create forms on web page.
+- HTML form is used to collect user inputs with different input types like `button`, `checkbox`, `text`, etc 	 		
+- All the collected used data is sent to server for processing. 		
+```html
+<form action="/submit_data.php">
+   <label>Enter your name: </label>
+   <input type="text" name="name" /> 
+   <label>Enter Mobile number </label>
+   <input type="number" name="mobile_no"/>
+   <input type="submit" value="Submit">
+</form>
+```
