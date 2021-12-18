@@ -31,8 +31,8 @@
 <p align = "left">This is left aligned</p> 
 
 Here 👆🏻 
-<p> : Paragraph Tag
+<p> : Paragraph Starting Tag
 align : Attribute that define the characteristic for content 
 left : Value of an attribute 	
-</p> : End Tag	
+</p> : Paragraph End Tag	
 ```
