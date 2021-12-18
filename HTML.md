@@ -52,4 +52,4 @@ Character | Entity Name
 `<` | `&lt;`
 `>` | `&gt;`
 `&` | `&amp;`
-non breaking space e.g 10 PM | <p>10&nbsp;PM</p>
+non breaking space e.g 10 PM | `&nbsp;`
