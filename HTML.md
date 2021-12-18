@@ -187,3 +187,14 @@ Target Attribute Value | Behaviour
    <input type="submit" value="Submit">
 </form>
 ```
+
+### How to handle `events` in HTML?
+- HTML allows `event trigger` actions in browsers using javascript or JQuery. 
+- There are lot of events like `onclick`, `ondrag`, `onchange`, etc.
+
+### `Inline` and `Block` elements in HTML5?
+
+Inline | Block
+:--- | :---
+Just consumes necessary space | Starts on new line and consume full width of page
+<span>, <a>, <strong>, <img>, <button>, <em>, <select>, <abbr>, <label>, <sub>, <cite>, <abbr>, <script>, <label>, <i>, <input>, <output>, <q>, etc. | <div>, <p>, <header>, <footer>, <h1>...<h6>, <form>, <table>, <canvas>, <video>, <blockquote>, <pre>, <ul>, <ol>, <figcaption>, <figure>, <hr>, <article>, <section>, etc.
