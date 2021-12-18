@@ -24,7 +24,7 @@
 - Each object has its `unique` set of instance attribute.
 - An object is created by `assigning` values to the attributes.
 
-```
+```csharp
 s1 = Student(name="Kiran", age=25)
 s2 = Student(name="Kumar", age=26)
 
