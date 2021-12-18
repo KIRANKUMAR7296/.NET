@@ -57,7 +57,33 @@ non breaking space e.g 10 PM | `&nbsp;`
 ### What is the `class attribute` in HTML?
 - Class attribute is used to specify class name for an HTML Element.
 - Multiple elements in HTML can have same class value.
+- We can use `id` attribute to create difference between same class values.
 
 ```html>
 <p class = "row"></p>
 ```
+
+### Describe HTML `layout structure`
+- Web page has different components to display the intended content.
+- `<header` : Display header information of the web page (Top)
+- `<footer` : Display footer of the web page (Bottom)
+- `<nav>` : Navigation menu of HTML page.
+- `<article>` : Set of information.
+- `<section>` : Used inside article block to define basic structure of a page.
+- `<aside>` : Sidebar content of page.
+
+### HTML `Formatting tags`
+- <b/> - `bold` text
+- <i/> - `italic` text
+- <em> - `italic` text with added semantics importance 
+- <big> - increases the font size of the text by one unit
+- <small> - decreases the font size of the text by one unit
+- <sub> - `subscript` text
+- <sup> - `superscript` text
+- <del> - `strikeout` text
+- <strong> - `bold` important text
+- <mark> - `highlight` text
+	
+### `<head>` and `<body>` tag in HTML
+	
+<ins> - displays as added text
