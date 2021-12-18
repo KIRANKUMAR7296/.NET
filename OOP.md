@@ -109,38 +109,38 @@ Student s1 = new Student();
 - Allow to call methods of base class in derived class.
 - e.g A person at same time is a father, a husband, an employee and behaves accordingly.
 
-#### a. Method Overriding
-- New Derived Class can `Inherit` and `Override` | Modify the Attributes and Methods of its Base Class.
+#### a. `Method Overriding`
+- `Derived Class` can `inherit` and `override` | Modify the `attributes` and `methods` of it's `Base Class`
 
-#### b. Method Overloading 
-- Creating Multiple Methods with `Same Name` but with different ( `Unique` ) Parameters.
+#### b. `Method Overloading`
+- Creating multiple methods with `same name` but with different ( `unique` ) parameters | attributes.
 
-#### c. Operator Overloading
-- Same Operator Behaves differently with Different Data Types according to Context.
-- ( + Operator ) performs `Arithmetic` Operations between Two `Numbers` but performs `Concatenation` between Two `Strings`.
+#### c. `Operator Overloading`
+- Same operator behaves different with different data types according to context.
+- ( + Operator ) performs `arithmetic` operations between `numbers` but performs `concatenation` between `strings`.
 
 <h3 name='inh'>7. Inheritance</h3> 
 
-- The process in which one class acquire the property and method of another class.
+- The process in which one class inherit the `attribute` and `method` of another class.
 - e.g `Child` inherits properties and behaviours from `mom` and `dad`.
 - e.g Dogs can have same color, same name, same size and same breed, but they are not same.
 
-### Similar Words
+### `Similar` Words
 
-- Parent Class | Base Class | Super Class
-- Child Class | Derived Class | Sub Class
+- `Parent` Class = `Base` Class = `Super` Class
+- `Child` Class = `Derived` Class = `Sub` Class
 
 <img src='Image/Inheritance.jpg'>
 
-#### 1. Single Inheritance 
+#### 1. `Single Inheritance`
 - Class `B` inherit from class `A` | New class is derived from base class.
 - e.g. `Boy` inherit `father` properties and behaviours.
 
-#### 2. Multiple Inheritance
+#### 2. `Multiple Inheritance`
 - Class `A` inherit from class `B` and class `C` | A class can be derived from more than one base class.
 - e.g. Class truck, class car, class bus inherit from class vehicle.
 
-#### 3. Multilevel Inheritance
+#### 3. `Multilevel Inheritance`
 - Class `C` inherit from class `B` and class `B` inherit from class `A`
 - e.g. `Boy` inherit from `father` and `father` inherit from `grand father`.
 
