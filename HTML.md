@@ -28,11 +28,12 @@
 ### `Attribute` : Define the characteristics of an HTML Element (Case Sensitive)
 
 ```html
-<p align = "left">This is left aligned</p> 
+<p align = "left">This is a content</p> 
 
 Here 👆🏻 
-<p> : Paragraph Starting Tag
-align : Attribute that define the characteristic for content 
-left : Value of an attribute 	
-</p> : Paragraph End Tag	
+<p> : Paragraph Starting Tag.
+align : Attribute that define the characteristic for content. 
+left : Value of an attribute.	
+content : Text to be displayed on website.	
+</p> : Paragraph End Tag.	
 ```
