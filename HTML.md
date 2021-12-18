@@ -132,10 +132,7 @@ Target Attribute Value | Behaviour
 <html>
 	<head>
 		<style>
-			@font-face {
-			font-family: 'Moon';
-			src: url(../Font/MoonBold.ttf);
-        		}
+			@font-face {font-family: 'Moon'; src: url(../Font/MoonBold.ttf);}
 		</style>
 	</head>
 	
