@@ -168,8 +168,9 @@ Target Attribute Value | Behaviour
    	</script>
    	</body>
 </html>
+```
 
 ###  When to use scripts in the `head` and when to use scripts in the `body` ?
-- If script contain some `event trigger function` or `jquery library` then use in head section.
-- If the script only write and display content on web page then place in body section at bottom.
-```
+- If script contain some `event triggers` or `jquery libraries` then use in `<head>` 
+- If the script only `display` contents or render something on wen page then place in `<body>` at bottom.
+
