@@ -136,8 +136,7 @@ Target Attribute Value | Behaviour
 		</style>
 	</head>
 	
-	<body>
-	</body>
+	<body></body>
 </html>	
 ```			
 
