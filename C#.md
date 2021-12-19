@@ -258,3 +258,9 @@ Do not support Inheritance and Polymorphism | Supports Inheritance and Polymorph
 
 - A special type of class that cannot be instantiated ( Cannot be used to create `objects` )
 - Designed to be inherited by `subclasses` that either implement or `override` its methods. 
+
+### 27. Abstract Method
+
+- Only be used in an abstract class.
+- Method does not have any body it is just derived.
+- It can be overridden by the derived class.
