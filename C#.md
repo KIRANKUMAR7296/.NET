@@ -254,3 +254,7 @@ Struct | Class
 Stored on the `Stack`. | Stored on the `Heap`
 Do not support Inheritance and Polymorphism | Supports Inheritance and Polymorphism 
 
+### 26. Abstract Class
+
+- A special type of class that cannot be instantiated ( Cannot be used to create `objects` )
+- Designed to be inherited by `subclasses` that either implement or `override` its methods. 
