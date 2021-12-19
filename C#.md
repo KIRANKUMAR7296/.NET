@@ -264,3 +264,9 @@ Do not support Inheritance and Polymorphism | Supports Inheritance and Polymorph
 - Only be used in an abstract class.
 - Method does not have any body it is just derived.
 - It can be overridden by the derived class.
+
+### 28. Delegates
+
+- A delegate is a `reference type` variable that holds the reference to a `method`
+- The reference can be changed at `runtime`
+- Delegates are especially used for implementing `events` and the `call-back` methods.
