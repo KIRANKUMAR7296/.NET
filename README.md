@@ -29,12 +29,26 @@
 
 ### `ASP.NET Full Stack Developer`
 
-`Front End` : `HTML`, `CSS`, `Bootstrap` (CSS library), `JavaScript` and `jQuery` (JavaScript library)
+- `Front End` : `HTML`, `CSS`, `Bootstrap` (CSS library), `JavaScript` and `jQuery` (JavaScript library)
+- `Back End` :  `C#` programming language
+- `Framework` : `ASP.NET`
+- `Database` :  `SQL`
+ 
+### MVC `Authentication` ( Username and Password )
 
-`Back End` :  `C#` programming language
+- A process to `ensure` and `confirm` a user’s identity.
+- Whether user is registered or not to access particular data or web pages.
+- A process to `validate` someone.
 
-`Framework` : `ASP.NET`
+### MVC `Authorization` ( Permission )
 
-`Database` :  `SQL`
+- Determine whether the user has `access` to a particular resource or not.
 
+`Authentication` happens first and then `Authorization` is determined.
+
+### Authentication Types
+
+1. `Forms` Authentication : Provide credentials through form ( Username and Password )
+2. `Window` Authentication : `IIS` Authentication
+3. `Password` Authentication : Centralized authentication service provided by Microsoft Autheticator.
 
