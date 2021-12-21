@@ -245,14 +245,14 @@ If we `modify` value of String then New memory is allocated and old memory is re
 
 ### 25. What are the different ways a method can be overloaded ?
 
-- Different `Data Types` of Parameter ( Data Type of the New Parameters can be `changed` while Deriving New )
-- Different `Order` of Parameters ( `Order` of the Parameters can be `changed` while Deriving New Class )
-- Different `Number` of Parameters ( New Parameters can be `added` while Deriving New Class )
+- We can change the `Data Types` of parameters ( Data type of the new parameters can be `changed` while deriving new )
+- We can change the `Order` of parameters ( `Order` of the parameters can be `changed` while deriving new class )
+- We can change the `Number` of parameters ( New parameters can be `added` while deriving new class )
 
 Struct | Class
 :--- | :--- 
-Stored on the `Stack`. | Stored on the `Heap`
-Do not support Inheritance and Polymorphism | Supports Inheritance and Polymorphism 
+`Struct` is stored on the `Stack`. | `Class` is stored on the `Heap`
+`Struct` do not support `Inheritance` and `Polymorphism` | `Class` support `Inheritance` and `Polymorphism`
 
 ### 26. Abstract Class
 
@@ -261,12 +261,12 @@ Do not support Inheritance and Polymorphism | Supports Inheritance and Polymorph
 
 ### 27. Abstract Method
 
-- Only be used in an abstract class.
-- Method does not have any body it is just derived.
-- It can be overridden by the derived class.
+- Abstract Method are only used in an `Abstract Class`
+- Method does not have any body it is just derived from its base `Abstract Class`
+- It can be `overridden` by the derived class.
 
 ### 28. Delegates
 
 - A delegate is a `reference type` variable that holds the reference to a `method`
 - The reference can be changed at `runtime`
-- Delegates are especially used for implementing `events` and the `call-back` methods.
+- Delegates are especially used for implementing `events` and the `call back` methods.
