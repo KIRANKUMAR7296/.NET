@@ -36,19 +36,19 @@
  
 ### MVC `Authentication` ( Username and Password )
 
-- A process to `ensure` and `confirm` a user’s identity.
-- Whether user is registered or not to access particular data or web pages.
-- A process to `validate` someone.
+- `Authentication` is a process to `ensure` and `confirm` a user’s identity.
+- It ensures that whether user is `registered` or not to `access` particular data or web pages.
+- It is like a process to `validate` someone.
 
 ### MVC `Authorization` ( Permission )
 
-- Determine whether the user has `access` to a particular resource or not.
+- `Authorization` helps to determine whether the user has `access` to a particular resource or not.
 
-`Authentication` happens first and then `Authorization` is determined.
+`Authentication` happens before `Authorization`
 
 ### Authentication Types
 
-1. `Forms` Authentication : Provide credentials through form ( Username and Password )
+1. `Forms` Authentication : Provide `credentials` through form ( Username and Password )
 2. `Window` Authentication : `IIS` Authentication
-3. `Password` Authentication : Centralized authentication service provided by Microsoft Autheticator.
+3. `Password` Authentication : Centralized authentication service provided by `Microsoft Autheticator`
 
