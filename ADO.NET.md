@@ -13,7 +13,6 @@
 
 - Bridge between Front end `Controls` and backend `Database`.
 - Encapsulates all the Data Access Operations, Control Interactions and Display Data.
-
 - `Data Provider` : Connection, Command and DataAdapter ( `Select`, `Insert`, `Delete` and `Update` Command )
 - `DataSet` : DataRelationCollection and DataTableCollection ( `DataTable`, Rows, Columns and Constraints )
 
