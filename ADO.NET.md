@@ -11,18 +11,18 @@
 
 <h3 name='ado'>1. ADO.NET ( ActiveX Data Object )</h3>
 
-- Bridge between Front end `Controls` and backend `Database`.
-- Encapsulates all the Data Access Operations, Control Interactions and Display Data.
-- `Data Provider` : Connection, Command and DataAdapter ( `Select`, `Insert`, `Delete` and `Update` Command )
-- `DataSet` : DataRelationCollection and DataTableCollection ( `DataTable`, Rows, Columns and Constraints )
+- `ADO.NET` is a bridge between front end `controls` and backend `database`.
+- It encapsulates all the data access operations, control interactions and display data.
+- A `Data Provider` i.e. Connection, Command and DataAdapter ( `Select`, `Insert`, `Delete` and `Update` Command )
+- And a `DataSet` i.e DataRelationCollection and DataTableCollection ( `DataTable`, Rows, Columns and Constraints )
 
 <p><img src='Image/ADO.NET Objects.jpg'></p>
 
-- `Connection`  : Connect `Data Source` for performing Operations.
-- `Command` : `Query` or Stored Procedure to and from Database for `Extracting`, `Transforming` or `Loading` data.
-- `DataAdapter` : Helps DataSet to Load Data from Multiple Databases or Data Source.
-- `DataReader` : `Read only` Access to Data in Database.
-- `DataRelationCollection` : Represents relationship between two `Tables`.
+- `Connection` helps to connect `Data Source` for performing operations.
+- `Command` is a `Query` or Stored Procedure to and from Database for `Extracting`, `Transforming` or `Loading` data.
+- `DataAdapter` helps DataSet to `load` Data from multiple Databases or Data Source.
+- `DataReader` has `Read only` access to data in Database.
+- `DataRelationCollection` represents relationship between two `Tables`.
 
 <h3 name='set'>2. DataSet vs DataReader</h3>
 
@@ -30,10 +30,10 @@
 
 DataSet |  DataReader 
 :--- | :---
-Has `Read Write` Access to Data | Used to Retrieve `Read Only` Data from Database
-`SqlAdapter` fills Data in DataSet | DataReader is created by calling `Command.ExecuteReader`
-Speed to Access Data is `Slow` | Speed to Access Data is `Fast` due to `Read Only`
-No need to `Open` or `Close` Connection | Needs to `Open` and `Close` Connection Manually
+`DataSet` has `Read Write` access to data | `DataReader` is used to retrieve or access `Read Only` data from Database
+`SqlAdapter` fills data in DataSet | DataReader is created by calling `Command.ExecuteReader`
+Speed to access data is `Slow` | Speed to access data is `Fast` due to `Read Only`
+No need to `Open` or `Close` connection | Needs to `Open` and `Close` Connection Manually
 
 <h3 name='execute'>3. ExecuteScalar | ExecuteReader | ExecuteNonQuery</h3>
 
