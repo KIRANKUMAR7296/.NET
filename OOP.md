@@ -14,8 +14,7 @@
 
 <h3 name='class'>1. Class</h3>
 
-- `Blueprint` or `template` that describes 👇🏻
-- `Attributes` ( Properties ) and `Method` ( Behavior | Action ) of an object.
+- `Class` is a `blueprint` or `template` that describes `Attributes` ( Properties ) and `Method` ( Behavior | Action ) of an `object`
 
 ```C#
 public class Student  
@@ -27,9 +26,9 @@ public class Student
 
 <h3 name='int'>2. Interface</h3>
 
-- `Blueprint` of a `class`.
-- Methods declared inside the interface are `abstract` methods.
-- Used to achieve `multiple` inheritance.
+- `Interface` is a `blueprint` of a `class`.
+- Methods declared inside an interface are `abstract` methods.
+- Interface is used to achieve `multiple` inheritance.
 
 ```C#
 using System;  
@@ -76,7 +75,7 @@ Drawing Circle...
 
 <h3 name='obj'>3. Object</h3> 
 
-- `Instance` of class which has `attributes` and `methods`.
+- `Object` is `instance` of a class which has `attributes` and `methods`.
 
 ```C#
 Student s1 = new Student();
@@ -90,13 +89,13 @@ Student s1 = new Student();
 
 <h3 name='abs'>4. Abstraction</h3>
 
-- `Show` only important information and `hide` unnecessary details from users.
+- `Abstraction` describes the concept in `OOP's` to `show` only the important information and `hide` the unnecessary details from users.
 - e.g. Mobile can do many things like make a call, take pictures, play games, watch movies, etc.
 - It doesn't show the inside process of how its doing the things (Implementation parts are hidden)
 
 <h3 name='enc'>5. Encapsulation</h3> 
 
-- Bind together the `data`, `attributes` and `methods` ( Class = Data + Attribute + Method )
+- `Encapsulation` binds together the `data`, `attributes` and `methods` ( Class = Data + Attribute + Method )
 - e.g. A company has several departments Production, HR, Accounts, Marketing.
 - All these departments makes up a company, and each department has it's own purpose and actions.
 - `Class` : Car
@@ -105,15 +104,15 @@ Student s1 = new Student();
 
 <h3 name='poly'>6. Polymorphism (Many Forms)</h3>
 
-- Having more than one form.
-- Allow to call methods of base class in derived class.
+- `Polymorphism` is the ability of an object to take many forms.
+- Allow to call methods of `base class` in `derived class`
 - e.g A person at same time is a father, a husband, an employee and behaves accordingly.
 
 #### a. `Method Overriding`
-- `Derived Class` can `inherit` and `override` | Modify the `attributes` and `methods` of it's `Base Class`
+- `Derived Class` can `inherit` and `override` | Modify the `methods` of it's `Base Class` that's `Method Overriding`
 
 #### b. `Method Overloading`
-- Creating multiple methods with `same name` but with different ( `unique` ) parameters | attributes.
+- `Method Overloading` is the ability of creating multiple methods with `same name` but with different ( `unique` ) parameters | attributes.
 
 #### c. `Operator Overloading`
 - Same operator behaves different with different data types according to context.
@@ -121,14 +120,14 @@ Student s1 = new Student();
 
 <h3 name='inh'>7. Inheritance</h3> 
 
-- The process in which one class inherit the `attribute` and `method` of another class.
+- `Inheritance` is the process in which `one class` inherit the `attribute` and `method` of `another class`
 - e.g `Child` inherits properties and behaviours from `mom` and `dad`.
 - e.g Dogs can have same color, same name, same size and same breed, but they are not same.
 
 ### `Similar` Words
 
-- `Parent` Class = `Base` Class = `Super` Class
-- `Child` Class = `Derived` Class = `Sub` Class
+- `Parent` Class is also called as `Base` Class or `Super` Class
+- `Child` Class is also called as `Derived` Class or `Sub` Class
 
 <img src='Image/Inheritance.jpg'>
 
@@ -146,7 +145,7 @@ Student s1 = new Student();
 
 ### Programming Constructs
 
-- Common building blocks to construct any program.
+- Programming constructs are common building blocks to construct any program.
 
 <img src='Image/Programming Construct.png'>
 
