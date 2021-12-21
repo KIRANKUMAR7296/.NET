@@ -117,18 +117,19 @@ Takes `2` Bytes Memory Space | Takes `4` Bytes Memory Space | Takes `8` Bytes Me
 
 <h3 name='iis'>IIS</h3>
 
-- Internet Information Services ( Web Server created by Microsoft )
-- Used to `Host` ASP.NET Web Applications and Static Websites.
-- Inbuilt Authentication and Authorization
-- `Authentication` : Verify whether User is a `Valid` User ( Login Form : User Name and Password )
-- `Authorization` : Check if you have a `Permission` to Access ( Secure Access )
+- `IIS` stands for `Internet Information Services`  
+- `IIS` is a `Web Server` created by `Microsoft`
+- It is used to host `ASP.NET Web Applications` and `Static Websites`
+- It consists of inbuilt `Authentication` and `Authorization`
+- `Authentication` means to `verify` whether user is a `valid` user ( Login Form : User Name and Password )
+- `Authorization` means to check if you have a `permission` to access the resource or database ( Secure Access )
 
 <h3 name='grid'>Grid View Bind</h3>
 
-- Grid View is used to Display `Tabular` Data ( Rows and Column ) on Web Page which is stored in a Database.
-- To `Display` the Data we need to `Bind` the Grid View to the Table in the Database.
-- We Select the Columns we want to Show on Grid View and use `ExecuteReader` to Read Data from Table.
-- Binding requires `Open` Connection and Connection is `Closed` after Binding.
+- `Grid View` is used to display `tabular` data ( rows and columns ) on web page which is stored in a database.
+- To `display` the data we need to `bind` the `Grid View` to the table in the database.
+- We select the columns we want to show on `Grid View` and use `ExecuteReader` to read data from table.
+- Binding requires `open` connection and connection is `closed` after binding.
 
 <h3 name='char'>charAt()</h3>
 
@@ -153,9 +154,9 @@ foreach (item in iterables)
 
 ### 7. Difference between Public, Static and Void 
 
-- `Public` : Public declared variables or methods are accessible anywhere in the application.
-- `Static` : Static declared variables or methods are accessible without creating any instance of the class.
-- `Void`   : The variables or methods doesn't return any value.
+- `Public` : Public declared `variables` or `methods` are accessible anywhere in the application.
+- `Static` : Static declared `variables` or `methods` are accessible without creating any instance of the class.
+- `Void`   : The `variables` or `methods` doesn't return any value.
 
 ### 8. ref parameters 
 
@@ -163,11 +164,11 @@ foreach (item in iterables)
 
 ### 9. out parameters
 
-- No need to be initialized before passing to method.
+- Out parameters states that no need to be initialize parameters before passing to method.
 
 ### 10. use of 'using' statement ?
 
-- Obtain a resource and process it and automatically dispose after execution.
+- `Using` statement is used to obtain a `resource` and process it and automatically `dispose` after execution.
 
 ### 11. Serialization vs Deserialization
 
@@ -179,68 +180,71 @@ Converting `Object` into `Byte Stream` | Creating an `Object` from a `Byte Strea
 
 Constant | Read Only
 :--- | :---
-Variables are Declared and Initialized at `Compile` Time | `Read Only` is used only to assign value at `Run` Time
+Variables are declared and initialized at `compile` time | `Read Only` is used only to assign value at `run` time
+Value is same through out the process | Any new value can be assigned at the run time.
 
 ### 13. Custom Controls ?
 
-- Controls generated as Compiled Code (.dlls)
-- Developer can Drag and Drop to Web Forms
+- Custom controls are `controls` generated as compiled code (.dlls)
+- Developer can `drag` and `drop` to `web forms`
 - `dll` are stored in `bin` folder of the project.
-- we can use them by adding reference.
+- we can use them by adding reference to the location of `dll` file.
 
 ### 14. Sealed Class ?
 
-- `Restricts` the class from Inheritance. ( Sealed class can be used to Create another class )
+- Sealed Class `restricts` the class from `Inheritance` ( Sealed class can be used to create another class )
 
 ### 15. Array vs Array List ?
 
 Array | Array List
 :--- | :---
-Is a `Fixed` Size Data Structure | Is not a Fixed Size Data Structure
-Items are Accessed by `Index` | Items are Accessed by using `Method`
+`Array` is a `fixed` size data structure | `Array List` is not a fixed size data structure
+Items inside Array are accessed by `Index` | Items inside Array List are accessed by using `Method`
 
 ### 16. System.String vs System.Text.StringBuilder 
 
 `System.String` :  | `System.Text.StringBuilder`
 :--- | :---
-Strings are `Immutable` (Cannot Change the value) | Strings are `Mutable` (Can change the Value)
-If we `modify` value of String then New memory is allocated and old memory is released. | Value can be modified at same memory location.
+`Systen.Strings` are `immutable` (Cannot change the value once assigned) | `System.Text.StringBuilder` are `mutable` (Can change the value)
+If we `modify` value of String then `new memory` is allocated and old memory is released. | We `modify` the value at same memory location.
 
 ### 17. System.Array.CopyTo() vs System.Array.Clone()
 
 - Both performs `Shallow` Copy.
-- `Clone`  : Creates a same copy of Array. 
-- `CopyTo` : Copies value of One Array into another New Array.
+- `Clone`  : Creates a same exact `copy` of Array. 
+- `CopyTo` : Copies value from one array into another new array.
 
 ### 18. Finalize() vs Dispose()
 
-- `Dispose()` : Called when we want object to completely release resource.
-- `Finalize()` : Do same but do not assure garbage collection of an Object (do not leave memory allocation)
+- `Dispose()` is called when we want object to completely release the resource.
+- `Finalize()` also release the resource but it does not assure `garbage collection` of an object (do not leave memory allocation)
 
 ### 19 Circular Reference 
 
-- Situation in which two or more resource are dependent on each other and cause lock condition.
+- `Circular Reference` is a situation in which two or more resource are `dependent` on each other and cause `lock` condition.
 
 ### 20 Generics in C# ?
 
-- Used to make reusable class to reduce redundancy, increase performance and save time.
+- `Generics` are ssed to make reusable class to reduce redundancy, increase performance and save time.
 
 ### 21 Object Pool ?
 
-- Container having Objects to be used. Keep track of available Objects and Objects currently in use.
+- `Object Pool` is a container having objects to be used. 
+- It keeps track of available objects and objects currently in use.
 
 ### 22 What are Custom Exceptions ? 
 
-- Some Errors are need to be handles as per user requirement.
+- Some `errors` that are need to be handled as per user requirement.
 
 ### 23 How to Inherit Class ?
 ```.net
-- public class DerivedClass : BaseClass
+public class DerivedClass : BaseClass
 ```
-> Derived Class : Child Class  : Sub Class  
-> Base Class    : Parent Class : Super Class 
 
-### 24. What is the base class in .net from which all the classes are derived from ? ***
+`Derived Class` is also called as `Child Class` or `Sub Class`
+`Base Class` is also called as `Parent Class` or `Super Class` 
+
+### 24. What is the `base class` in `.net` from which all the classes are derived from ? ***
 
 - `System.Object`
 
