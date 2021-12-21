@@ -234,8 +234,9 @@ If we `modify` value of String then New memory is allocated and old memory is re
 - Some Errors are need to be handles as per user requirement.
 
 ### 23 How to Inherit Class ?
-
+```.net
 - public class DerivedClass : BaseClass
+```
 > Derived Class : Child Class  : Sub Class  
 > Base Class    : Parent Class : Super Class 
 
