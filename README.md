@@ -37,12 +37,12 @@
 ### MVC `Authentication` ( Username and Password )
 
 - `Authentication` is a process to `ensure` and `confirm` a user’s identity.
-- It ensures that whether user is `registered` or not to `access` particular data or web pages.
+- It ensures that whether the user is a `registered user` or not to `access` particular data or web pages.
 - It is like a process to `validate` someone.
 
 ### MVC `Authorization` ( Permission )
 
-- `Authorization` helps to determine whether the user has `access` to a particular resource or not.
+- `Authorization` helps to determine whether the user has `permission` to `access` a particular resource or database.
 
 `Authentication` happens before `Authorization`
 
