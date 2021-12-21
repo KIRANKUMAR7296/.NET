@@ -149,6 +149,6 @@ Student s1 = new Student();
 
 <img src='Image/Programming Construct.png'>
 
-1. `Sequence` : Step by step process ( Follow only one direction : Top to bottom)
+1. `Sequence` : Step by step process ( Follow only one direction : Top to bottom )
 2. `Selection` : Steps taken based on conditions ( If Else or True False Condition )
 3. `Iterations` : Repeated process which can change the step based on certain conditions.
