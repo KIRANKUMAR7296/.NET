@@ -39,5 +39,5 @@ No need to `Open` or `Close` connection | Needs to `Open` and `Close` Connection
 
 ExecuteScalar | ExecuteReader | ExecuteNonQuery
 :--- | :--- | :---
-Is used when Query return `Single` Value | Is used when Query return `Multiple` Values | Is used when Query return no Data
-e.g. First Row or Column from the Database | e.g. Multiple Rows and Columns (Iterations) | e.g. Only Returns Number of Rows Inserted, Updated or Deleted (Rows Affected)
+Is used when query return `single` value | Is used when query return `multiple` values | Is used when query return `no data`
+e.g. First row or column from the database | e.g. Multiple rows and columns | e.g. Only returns number of rows inserted, updated or deleted (`Rows Affected`)
