@@ -23,26 +23,26 @@
 
 ### 1. What is C# 
 
--  An Object Oriented, Compiled by `.NET` Framework to generate Microsoft Intermediate Language.
+-  `C#` is an `object oriented`, compiled by `.NET` framework, microsoft's intermediate language.
 
 <h3 name='con'>2. Constructor</h3>
 
-- Automatically `invokes` whenever an object is created.
-- Initialize `Data Members` of New Object.
-- `Types` of Constructor 👇🏻
-- `Default` Constructor : A Constructor with no `Arguments`.
+- `Constructor` automatically `invokes` whenever an `object` is created.
+- It initialize `Data Members` of new object.
+- There are 2 `types` of Constructor 👇🏻
+- `Default` Constructor : A Constructor without `Parameters`.
 - `Parameterized` Constructor : A Constructor with `Parameters`.
 
 <h3 name='gc'>3. Garbage Collector</h3> 
 
--  An Automatic Memory Manager ( `Allocate` and `Release` Memory for Objects )
--  Garbage Collector `collects` and `dispose` garbage memory to make memory available for new allocations.
+- Garbage Collector is an `automatic memory manager`, it `allocates` and `releases` memory for objects.
+- Garbage Collector `collects` and `dispose` garbage memory to make memory available for new allocations.
 
 <h3 name='box'>4. Boxing vs Unboxing</h3>
 
 Boxing | Unboxing
 :--- | :---
-Converting a Value Type (Char, Int) to Reference Type (Object) | Converting Reference Type into Value Type 
+Converting a `value type` ( Char, Int ) to `reference type` ( Object ) | Converting `reference type` to `value type`
 After conversion the value is stored in `Heap` | After Conversion value is stored in `Stack`
 
 - e.g. Boxing 
