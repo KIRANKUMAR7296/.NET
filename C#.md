@@ -141,8 +141,8 @@ str.charAt(8)  // Character at Index Location 8
 
 <h3 name='each'>foreach()</h3>
 
-- `foreach()` : `Loop` iterate through each Items of an Array or Collection.
-- An alternative to `for` loop
+- `foreach()` : `Loop` iterate through each items of an `Array` or `Collection`
+- An alternative to `for` loop.
 
 ```c#
 foreach (item in iterables)
