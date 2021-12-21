@@ -2,23 +2,23 @@
 
 ### What is MVC ?
 
-- `MVC` : Model `Data` + View `UI` + Controller `Brain`
-- Core concept is to separate the `business logic`, `user interface` and `data model` from each other.
-- `Model` : A model extracts data from a database like `cloud`, `local storage`, `API's`
-- `View` : View represents the `UI` of app, it shows the data model and takes inputs from the users.
-- `Controller` : Consist of `business logics`, control and decide what will be displayed to user.
+- `MVC` stands for Model ( `Data` ) + View ( `UI` ) + Controller ( `Brain` )
+- The `core concept` is to separate the `business logic`, `user interface` and `data model` from each other.
+- `Model` extracts data from a database like `cloud`, `local storage`, `API's`
+- `View` represents the `UI` of app, it shows the data model and takes inputs from the users.
+- `Controller` consist of `business logics`, control and decide what will be displayed to user.
 - `MVC` helps to make work easy, structured and organized.
 - So if something is changed in one part of the project, it will not affect other parts of the project. 
-- User interacts with `view` on which data is displayed and provide input with `controller` through `view`
+- The `user` interacts with `view` on which data is displayed and provide input with `controller` through `view`
 - `Controller` is like brain it manipulates the data for user or take data from `model` to work.
 - And after work is completed again it is provided back to `view` which shows desired data to users.
 
 ### Can we use Multiple web.config file ? : `Yes`
 
-- We have one main configuration file : `Web.Config`
-- Then we have two more configuration files : `App.Config` and `Database.Config`
-- `App.Config` :  Here we define all the application level settings ( Protocol, Request, Response )
-- `Database.Config` : Here we define all the database level settings ( Data Source, Password )
+- We have one main configuration file that is `Web.Config`
+- Then we have two more configuration files `App.Config` and `Database.Config`
+- In `App.Config` we define all the `application level` settings like `Protocols`, `Requests` and `Responses` 
+- In `Database.Config` we define all the `database level` settings like `Data Source` and `Passwords` 
 
 ```c#
 <appSettings configSource="app.config">
